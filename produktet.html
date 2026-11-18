@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#181818">
+  <link rel="icon" type="image/png" href="logo/logo.png">
+  <meta name="description" content="Eksploro karikues, kasa për iPhone e Samsung, syze, lodra dhe aksesorë në ON POINT STORE.">
+  <title>Produktet | ON POINT STORE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="produkte.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="catalog">
+  <a class="skip-link" href="#main">Kalo te përmbajtja</a>
+  <div id="njoftimi">Detaje të vogla. Stil që dallohet. <span>ON POINT STORE</span></div>
+  <header class="site-header"><div class="shiriti-kryesor page-width">
+    <a class="brand" href="index.html" aria-label="ON POINT STORE — Ballina"><img id="logo" src="logo/logo.png" alt="ON POINT STORE" width="2172" height="724"></a>
+    <form class="kerkimi" role="search" action="produktet.html"><span class="search-icon" data-icon="search" aria-hidden="true"></span><input type="search" id="search" name="q" placeholder="Çfarë po kërkon sot?" aria-label="Kërko produkte" autocomplete="off"><button class="search-submit" type="submit" aria-label="Kërko"><span data-icon="arrow" aria-hidden="true"></span></button></form>
+    <button class="cart-trigger" type="button" data-open-cart aria-haspopup="dialog" aria-controls="cart-dialog"><span data-icon="bag" aria-hidden="true"></span><span class="cart-label">Shporta</span><span id="cart-count" class="cart-count">0</span></button>
+  </div></header>
+  <main id="main" class="page-width catalog-page">
+    <nav class="breadcrumbs" aria-label="Vendndodhja"><a href="index.html">Ballina</a><span aria-hidden="true">/</span><span id="breadcrumb-current">Produktet</span></nav>
+    <section class="katalogu" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><span class="eyebrow section-eyebrow">KATALOGU ON POINT</span><h1 id="catalog-title">Të gjitha produktet</h1><p id="catalog-description" class="catalog-description">Gjej detajin që të përshtatet.</p></div><p id="result-count" aria-live="polite"></p></div>
+      <div class="catalog-toolbar"><nav id="category-filters" class="filter-chips" aria-label="Filtro katalogun"></nav></div>
+      <nav id="subcategory-filters" class="filter-chips subcategory-filters" aria-label="Filtro sipas nënkategorisë" hidden></nav>
+      <div id="active-search" class="active-search" hidden><span id="search-description"></span><button id="clear-search" type="button">Pastro kërkimin ×</button></div>
+      <div class="demo-note" hidden><span class="demo-pill">DEMO</span><span>Produktet e shënuara DEMO, ilustrimet dhe çmimet e tyre janë shembuj për prezantim.</span></div>
+      <div id="lista-produkteve" class="product-grid"></div>
+      <noscript><p>Aktivizo JavaScript për të parë produktet dhe për të përdorur shportën.</p></noscript>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-inner"><div><a class="footer-brand" href="index.html">ON POINT <span>STORE</span></a><p>Detaje për çdo ditë. Stil vetëm për ty.</p></div><nav aria-label="Lidhje në fund të faqes"><a href="index.html">Ballina</a><a href="produktet.html">Katalogu</a><button type="button" data-open-cart>Shporta</button></nav><small>© <span data-year>2026</span> ON POINT STORE<br><span data-catalog-status>Aksesorë për çdo ditë</span></small></div></footer>
+  <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title">
+    <div class="cart-header"><div><span class="eyebrow">ZGJEDHJET E TUA</span><h2 id="cart-title">Shporta jote <span id="cart-title-count"></span></h2></div><button class="icon-button" id="close-cart" type="button" aria-label="Mbyll shportën">×</button></div>
+    <div id="cart-items" class="cart-items"></div>
+    <div id="cart-summary" class="cart-summary" hidden><div class="cart-total"><span>Totali i produkteve</span><strong id="cart-total">0 lekë</strong></div><p class="shipping-note">Transporti dhe disponueshmëria konfirmohen me dyqanin.</p><p id="checkout-note" class="checkout-note"></p><a id="whatsapp-order" class="button whatsapp-button" target="_blank" rel="noopener noreferrer" hidden><span data-icon="chat" aria-hidden="true"></span>Porosit në WhatsApp <span aria-hidden="true">↗</span></a><details class="order-preview"><summary>Shiko mesazhin e porosisë</summary><pre id="order-message"></pre></details><p class="checkout-caption">Mesazhi përgatitet automatikisht. Ti e dërgon dhe konfirmon porosinë në WhatsApp.</p></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#181818">
+  <link rel="icon" type="image/png" href="logo/logo.png">
+  <meta name="description" content="ON POINT STORE — kasa telefoni, karikues dhe aksesorë. Zgjidh produktet dhe përgatit porosinë në WhatsApp.">
+  <title>ON POINT STORE | Aksesorë për stilin tënd</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="produkte.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Kalo te përmbajtja</a>
+  <div id="njoftimi">Detaje të vogla. Stil që dallohet. <span>ON POINT STORE</span></div>
+  <header class="site-header">
+    <div class="shiriti-kryesor page-width">
+      <a class="brand" href="index.html" aria-label="ON POINT STORE — Ballina"><img id="logo" src="logo/logo.png" alt="ON POINT STORE" width="2172" height="724"></a>
+      <form class="kerkimi" role="search" action="produktet.html">
+        <span class="search-icon" data-icon="search" aria-hidden="true"></span>
+        <input type="search" id="search" name="q" placeholder="Çfarë po kërkon sot?" aria-label="Kërko produkte" autocomplete="off">
+        <button class="search-submit" type="submit" aria-label="Kërko"><span data-icon="arrow" aria-hidden="true"></span></button>
+      </form>
+      <button class="cart-trigger" type="button" data-open-cart aria-haspopup="dialog" aria-controls="cart-dialog"><span data-icon="bag" aria-hidden="true"></span><span class="cart-label">Shporta</span><span id="cart-count" class="cart-count">0</span></button>
+    </div>
+  </header>
+  <main id="main" class="page-width">
+    <div class="page-intro"><span>Aksesorët e tu, në një vend.</span><a href="produktet.html">Shiko të gjitha <span aria-hidden="true">↗</span></a></div>
+    <div class="ballina hero-layout">
+      <nav class="nav category-nav" aria-label="Kategoritë">
+        <h2 class="nav-heading"><span data-icon="grid" aria-hidden="true"></span>Eksploro kategoritë</h2>
+        <a class="category-link" href="produktet.html?kategoria=karikues"><span data-icon="charger" aria-hidden="true"></span><span>Karikues</span><span class="chevron" aria-hidden="true">›</span></a>
+        <div class="category-row" id="kasa-row">
+          <a class="category-link" href="produktet.html?kategoria=kasa" id="kategoria-kasa"><span data-icon="phone" aria-hidden="true"></span><span>Kasa telefoni</span></a>
+          <button id="toggle-kasa" class="category-toggle" type="button" aria-label="Shfaq nënkategoritë e kasave" aria-expanded="false" aria-controls="case-nav-links nenkategorite-kasa">⌄</button>
+        </div>
+        <div id="case-nav-links" class="case-nav-links" hidden><a href="produktet.html?kategoria=kasa&amp;nenkategoria=iphone">Kasa për iPhone <span aria-hidden="true">↗</span></a><a href="produktet.html?kategoria=kasa&amp;nenkategoria=samsung">Kasa për Samsung <span aria-hidden="true">↗</span></a></div>
+        <a class="category-link" href="produktet.html?kategoria=syze"><span data-icon="glasses" aria-hidden="true"></span><span>Syze</span><span class="chevron" aria-hidden="true">›</span></a>
+        <a class="category-link" href="produktet.html?kategoria=lodra"><span data-icon="toy" aria-hidden="true"></span><span>Lodra</span><span class="chevron" aria-hidden="true">›</span></a>
+        <a class="category-link" href="produktet.html?kategoria=aksesore"><span data-icon="headphones" aria-hidden="true"></span><span>Aksesorë të tjerë telefoni</span><span class="chevron" aria-hidden="true">›</span></a>
+        <div class="nav-footnote">Zgjidh. Shto në shportë. Porosit.</div>
+      </nav>
+      <section id="category-preview" class="banner" aria-label="Zbulo aksesorët ON POINT STORE">
+        <img id="category-banner-image" class="category-banner-image" alt="" hidden>
+        <div class="banner-content">
+          <span class="eyebrow"><span class="red-dot"></span> PËR STILIN TËND</span>
+          <h1 id="banner-title">Detaji i vogël.<br>Stili yt.</h1>
+          <p id="banner-description">Jepi telefonit tënd një pamje të re. Zbulo kasat dhe aksesorët që të përshtaten.</p>
+          <a id="banner-cta" class="button button-red" href="produktet.html?kategoria=kasa">Zbulo kasat <span aria-hidden="true">↗</span></a>
+          <div id="nenkategorite-kasa" class="case-shortcuts" hidden><a href="produktet.html?kategoria=kasa&amp;nenkategoria=iphone">Për iPhone <span aria-hidden="true">↗</span></a><a href="produktet.html?kategoria=kasa&amp;nenkategoria=samsung">Për Samsung <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <span class="banner-number" aria-hidden="true">01 / ON POINT</span>
+      </section>
+    </div>
+    <div class="how-it-works" aria-label="Si funksionon porosia"><div><span data-icon="search" aria-hidden="true"></span><span><strong>Gjej të preferuarin</strong><small>Eksploro sipas kategorisë</small></span></div><div><span data-icon="bag" aria-hidden="true"></span><span><strong>Krijo shportën tënde</strong><small>Ndrysho sasitë kur të duash</small></span></div><div><span data-icon="chat" aria-hidden="true"></span><span><strong>Vazhdo në WhatsApp</strong><small>Konfirmo detajet me dyqanin</small></span></div></div>
+    <section class="katalogu" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><span class="eyebrow section-eyebrow">ZGJIDH TË PREFERUARIN</span><h2 id="catalog-title">Në fokus, për ty<span class="red-dot"></span></h2></div><p id="result-count" aria-live="polite"></p></div>
+      <div class="catalog-toolbar"><nav id="category-filters" class="filter-chips" aria-label="Filtro katalogun"></nav></div>
+      <nav id="subcategory-filters" class="filter-chips subcategory-filters" aria-label="Filtro sipas nënkategorisë" hidden></nav>
+      <div class="demo-note" hidden><span class="demo-pill">DEMO</span><span>Produktet e shënuara DEMO, ilustrimet dhe çmimet e tyre janë shembuj për prezantim.</span></div>
+      <div id="lista-produkteve" class="product-grid"></div>
+      <noscript><p>Aktivizo JavaScript për të parë produktet dhe për të përdorur shportën.</p></noscript>
+    </section>
+    <section class="closing-note"><span class="eyebrow">THJESHT, ON POINT.</span><h2>Aksesorë të vegjël.<br>Ndryshim i madh.</h2><a href="produktet.html" class="text-link">Eksploro katalogun <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-inner"><div><a class="footer-brand" href="index.html">ON POINT <span>STORE</span></a><p>Detaje për çdo ditë. Stil vetëm për ty.</p></div><nav aria-label="Lidhje në fund të faqes"><a href="index.html">Ballina</a><a href="produktet.html">Katalogu</a><button type="button" data-open-cart>Shporta</button></nav><small>© <span data-year>2026</span> ON POINT STORE<br><span data-catalog-status>Aksesorë për çdo ditë</span></small></div></footer>
+  <dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title">
+    <div class="cart-header"><div><span class="eyebrow">ZGJEDHJET E TUA</span><h2 id="cart-title">Shporta jote <span id="cart-title-count"></span></h2></div><button class="icon-button" id="close-cart" type="button" aria-label="Mbyll shportën">×</button></div>
+    <div id="cart-items" class="cart-items"></div>
+    <div id="cart-summary" class="cart-summary" hidden><div class="cart-total"><span>Totali i produkteve</span><strong id="cart-total">0 lekë</strong></div><p class="shipping-note">Transporti dhe disponueshmëria konfirmohen me dyqanin.</p><p id="checkout-note" class="checkout-note"></p><a id="whatsapp-order" class="button whatsapp-button" target="_blank" rel="noopener noreferrer" hidden><span data-icon="chat" aria-hidden="true"></span>Porosit në WhatsApp <span aria-hidden="true">↗</span></a><details class="order-preview"><summary>Shiko mesazhin e porosisë</summary><pre id="order-message"></pre></details><p class="checkout-caption">Mesazhi përgatitet automatikisht. Ti e dërgon dhe konfirmon porosinë në WhatsApp.</p></div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

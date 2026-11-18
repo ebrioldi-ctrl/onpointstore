@@ -3,6 +3,12 @@
 
   const products = window.ON_POINT_PRODUCTS || [];
   const productById = new Map(products.map(product => [product.id, product]));
+  // Përziej një kopje vetëm gjatë hapjes së faqes, që kërkimi të mos ndërrojë rendin.
+  const shuffledProducts = [...products];
+  for (let index = shuffledProducts.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffledProducts[index], shuffledProducts[randomIndex]] = [shuffledProducts[randomIndex], shuffledProducts[index]];
+  }
   const categories = [
     {
       id: "karikues", name: "Karikues", icon: "charger", allLabel: "Të gjithë karikuesit",
@@ -13,7 +19,8 @@
       },
       subcategories: [
         { id: "iphone", name: "Për iPhone", title: "Karikues për iPhone" },
-        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" }
+        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" },
+        { id: "makine", name: "Karikues makine", title: "Karikues makine" }
       ]
     },
     {
@@ -53,9 +60,10 @@
     },
     {
       id: "aksesore", name: "Aksesorë të tjerë telefoni", icon: "headphones", allLabel: "Të gjithë aksesorët",
-      description: "Zbulo përshtatës për lidhje audio, video, internet dhe aksesorë të tjerë telefoni.",
+      description: "Zbulo adaptorë, USB, çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
       subcategories: [
-        { id: "adaptors", name: "Adaptors", title: "Adaptors" }
+        { id: "adaptors", name: "Adaptors", title: "Adaptors" },
+        { id: "usb", name: "USB", title: "Memorie USB" }
       ],
       preview: {
         image: "hover cover/akesortetjertelefoni.jpg", alt: "Aksesorë dhe pajisje për telefon",
@@ -153,7 +161,8 @@
     const words = normalize(filters.query).split(/\s+/).filter(Boolean);
     const selectedCategory = categoryById(filters.category);
     const selectedSubcategory = selectedCategory?.subcategories.find(subcategory => subcategory.id === filters.subcategory);
-    const results = products.filter(product => {
+    const catalogProducts = filters.category ? products : shuffledProducts;
+    const results = catalogProducts.filter(product => {
       const matchesCategory = !filters.category || product.kategoria === filters.category;
       const productChildren = productSubcategories(product);
       const matchesSubcategory = !filters.subcategory || (selectedSubcategory && product.kategoria === filters.category && productChildren.includes(filters.subcategory));
@@ -318,7 +327,7 @@
         : `${item.quantity} copë · Pyet për çmimin`;
       lines.push(`${index + 1}. ${product.emri}${product.demo ? " [DEMO]" : ""}`, `   ${priceDetails}`);
     });
-    lines.push("", `Totali i produkteve: ${money(cartTotal())}`, "Transporti dhe disponueshmëria për t’u konfirmuar.", "", "Ju lutem më konfirmoni porosinë dhe detajet e dërgesës.");
+    lines.push("", `Totali i produkteve: ${money(cartTotal())}`, "Transporti: Durrës 100L · Pjesa tjetër e Shqipërisë 300L.", "Disponueshmëria për t’u konfirmuar.", "", "Ju lutem më konfirmoni porosinë dhe detajet e dërgesës.");
     return lines.join("\n");
   }
   function renderCart(focusTarget) {

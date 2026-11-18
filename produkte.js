@@ -1,14 +1,15 @@
 ﻿/*
  * KATALOGU I PËRBASHKËT — përdoret nga index.html dhe produktet.html.
- * Çmimet janë dhënë nga dyqani, në lekë; null kur mungojnë.
+ * Çmimet janë në lekë; null kur mungojnë.
+ * cmimiOrientues: true shënon çmimet fillestare të propozuara me kërkesë të dyqanit.
  * Specifikat Hoco janë verifikuar te lidhja burimi e çdo produkti.
  * Ndryshoni të dhënat këtu; foto është rrugë relative lokale.
  * Mbajeni id të qëndrueshme: shporta identifikon produktin nga id.
  * Mos ripërdorni ID të shembujve të vjetër për produkte të tjera reale.
  * kategoria: karikues | kasa | syze | lodra | aksesore.
  * nenkategoria sipas kategorisë:
- * karikues: iphone | samsung; kasa: iphone | samsung;
- * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | "".
+ * karikues: iphone | samsung | makine; kasa: iphone | samsung;
+ * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | usb | "".
  * Nënkategoria bosh te karikuesit përdoret për lidhës universalë.
  * Opsionale: nenkategorite është listë nënkategorish për të njëjtin produkt.
  * P.sh. Stitch ka nenkategoria: "", nenkategorite: ["goca", "cuna"]:
@@ -178,10 +179,101 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/car-aux-bt-receiver-e80-travel/", demo: false
   },
   {
-    id: "hoco-z60-bloom", emri: "Karikues makine Hoco Z60 Bloom 48W", kategoria: "karikues", nenkategoria: "",
+    id: "hoco-z60-bloom", emri: "Karikues makine Hoco Z60 Bloom 48W", kategoria: "karikues", nenkategoria: "makine",
     modeli: "Z60", cmimi: 1000, foto: "assets/products/hoco/hoco-z60-bloom.jpg", stoku: null,
     pershkrimi: "Karikues makine me dy porta për karikim të shpejtë gjatë udhëtimit.",
     specifikat: ["USB-C deri 30W + USB-A deri 18W; gjithsej 48W", "Hyrje 12–24V; PD, PPS dhe QC3.0", "Varianti me kabllo USB-A → USB-C 1 m konfirmohet me dyqanin"],
     burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z60-bloom-48w-cable-set/", demo: false
+  },
+  {
+    id: "hoco-ud4-intelligent-32gb", emri: "Memorie USB Hoco UD4 Intelligent 32GB", kategoria: "aksesore", nenkategoria: "usb",
+    modeli: "UD4", cmimi: 800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud4-intelligent-32gb.jpg", stoku: null,
+    pershkrimi: "Memorie USB kompakte me trup metalik për ruajtjen dhe transportimin e dokumenteve, fotove e muzikës.",
+    specifikat: ["Kapacitet 32GB; lidhës USB-A, USB 2.0","Lexim 10–30 MB/s; shkrim 6–10 MB/s","Trup prej aliazh zinku; peshë 7 g"],
+    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud4-intelligent/", demo: false
+  },
+  {
+    id: "hoco-ud5-wisdom-64gb", emri: "Memorie USB Hoco UD5 Wisdom 64GB", kategoria: "aksesore", nenkategoria: "usb",
+    modeli: "UD5", cmimi: 1400, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud5-wisdom-64gb.jpg", stoku: null,
+    pershkrimi: "Memorie USB 3.0 me trup metalik për transferimin praktik të skedarëve dhe kopjeve rezervë.",
+    specifikat: ["Kapacitet 64GB; lidhës USB-A, USB 3.0","Lexim 20–90 MB/s; shkrim 15–80 MB/s","Trup prej aliazh zinku; peshë 18.5 g"],
+    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud5-zinc-alloy/", demo: false
+  },
+  {
+    id: "hoco-ud6-intelligent-32gb", emri: "Memorie USB Hoco UD6 Intelligent 32GB", kategoria: "aksesore", nenkategoria: "usb",
+    modeli: "UD6", cmimi: 700, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud6-intelligent-32gb.jpg", stoku: null,
+    pershkrimi: "Memorie USB e lehtë për skedarët e përditshëm, me trup kompakt në ngjyrë të zezë mat.",
+    specifikat: ["Kapacitet 32GB; lidhës USB-A, USB 2.0","Lexim 10–30 MB/s; shkrim 6–10 MB/s","Material ABS dhe pllakë PCB; peshë 7 g"],
+    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud6-intelligent-2-0/", demo: false
+  },
+  {
+    id: "hoco-ud8-smart-64gb", emri: "Memorie USB-C Hoco UD8 Smart 64GB", kategoria: "aksesore", nenkategoria: "usb",
+    modeli: "UD8", cmimi: 1800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud8-smart-64gb.jpg", stoku: null,
+    pershkrimi: "Memorie me lidhës USB-C për ruajtjen dhe transferimin e skedarëve në pajisje që mbështesin memorie USB-C.",
+    specifikat: ["Kapacitet 64GB; varianti me lidhës USB-C, USB 3.0","Lexim 70–100 MB/s; shkrim 30–40 MB/s","Trup prej aliazh zinku; peshë 10 g"],
+    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-or-type-c-flash-drive-ud8-smart-3-0/", demo: false
+  },
+  {
+    id: "hoco-ud9-insightful-64gb", emri: "Memorie USB Hoco UD9 Insightful 64GB", kategoria: "aksesore", nenkategoria: "usb",
+    modeli: "UD9", cmimi: 1200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud9-insightful-64gb.jpg", stoku: null,
+    pershkrimi: "Memorie USB me përmasa të vogla, praktike për muzikë në makinë dhe skedarë të përditshëm.",
+    specifikat: ["Kapacitet 64GB; lidhës USB-A, USB 2.0","Lexim 15–25 MB/s; shkrim 6–10 MB/s","Aliazh zinku dhe ABS; përmasa 26.3 × 12.2 × 4.4 mm, peshë 7 g"],
+    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-drive-ud9-insightful-2-0/", demo: false
+  },
+  {
+    id: "hoco-z54-prosperous", emri: "Karikues makine Hoco Z54 Prosperous 15.5W", kategoria: "karikues", nenkategoria: "makine",
+    modeli: "Z54", cmimi: 600, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z54-prosperous.jpg", stoku: null,
+    pershkrimi: "Karikues kompakt me dy porta USB për karikimin e përditshëm gjatë udhëtimit.",
+    specifikat: ["2 × USB-A, secila deri 12W; gjithsej 15.5W (5V/3.1A)","Hyrje 12–24V; trup alumini dhe unazë LED blu","Varianti vetëm karikues, pa kabllo USB"],
+    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z54-prosperous-15-5w-cable-set/", demo: false
+  },
+  {
+    id: "hoco-z58-rank", emri: "Karikues makine Hoco Z58 Rank 30W", kategoria: "karikues", nenkategoria: "makine",
+    modeli: "Z58", cmimi: 900, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z58-rank.jpg", stoku: null,
+    pershkrimi: "Karikues me portë USB-C për karikim të shpejtë të telefonit në makinë.",
+    specifikat: ["1 × USB-C deri 30W; PD3.0, PPS dhe QC3.0","Hyrje 12–24V; tregues LED dhe unazë alumini","Varianti vetëm karikues, pa kabllo USB"],
+    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z58-rank-30w-cable-set/", demo: false
+  },
+  {
+    id: "hoco-z57b-glorious", emri: "Karikues makine Hoco Z57B Glorious 63W", kategoria: "karikues", nenkategoria: "makine",
+    modeli: "Z57B", cmimi: 1500, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z57b-glorious.jpg", stoku: null,
+    pershkrimi: "Karikues me dy porta dhe ekran digjital që tregon tensionin e baterisë së makinës.",
+    specifikat: ["USB-C deri 45W + USB-A deri 18W; gjithsej 63W","Hyrje 12–24V; PD3.0, PPS, SFC2.0 dhe QC3.0","Ekran LED dhe trup alumini; pa kabllo USB"],
+    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z57b-glorious-63w-cable-set/", demo: false
+  },
+  {
+    id: "hoco-nz17-avant-garde", emri: "Karikues makine Hoco NZ17 Avant-garde 75W", kategoria: "karikues", nenkategoria: "makine",
+    modeli: "NZ17", cmimi: 1800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-nz17-avant-garde.jpg", stoku: null,
+    pershkrimi: "Karikues me tri porta dhe ndriçim me tri ngjyra për disa pajisje gjatë udhëtimit.",
+    specifikat: ["2 × USB-C (45W/30W) + 1 × USB-A deri 18W","Deri 75W me dy USB-C; deri 60W kur përdoren tri portat","Hyrje 12–24V; PD3.0 dhe PPS; pa kabllo USB"],
+    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-nz17-avant-garde-75w-cable-set/", demo: false
+  },
+  {
+    id: "hoco-z59a-rank", emri: "Karikues makine Hoco Z59A Rank 96W", kategoria: "karikues", nenkategoria: "makine",
+    modeli: "Z59A", cmimi: 2200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z59a-rank.jpg", stoku: null,
+    pershkrimi: "Karikues me katër porta USB dhe prizë shtesë çakmaku për pajisjet e pasagjerëve.",
+    specifikat: ["2 × USB-C 30W + 2 × USB-A 18W; gjithsej deri 96W","Hyrje 12–24V; PD3.0, PPS dhe QC3.0; kabllo ndërlidhëse 75 cm","Prizë çakmaku deri 120W në 12V ose 240W në 24V"],
+    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z59a-rank-96w-1xcigarette-lighter-slot/", demo: false
+  },
+  {
+    id: "hoco-hx53-treasure-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco HX53 Treasure", kategoria: "aksesore", nenkategoria: "",
+    modeli: "HX53", cmimi: 1200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-hx53-treasure-waterproof.avif", stoku: null,
+    pershkrimi: "Qese mbrojtëse për plazh e pishinë, me dritare transparente për kamerat dhe kordelë për mbajtje.",
+    specifikat: ["IPX8; për telefona deri në 7.2 inç","PU + TPU; 240 × 120 × 15 mm; kordelë e përfshirë","Pa kontroll me prekje nën ujë ose zhbllokim me gjurmë; testo rrjedhjet para çdo përdorimi"],
+    burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-phone-bag-hx53-treasure/", demo: false
+  },
+  {
+    id: "hoco-hx52-waterproof", emri: "Qese ujëmbrojtëse transparente Hoco HX52", kategoria: "aksesore", nenkategoria: "",
+    modeli: "HX52", cmimi: 1000, cmimiOrientues: true, foto: "assets/products/hoco/hoco-hx52-waterproof.avif", stoku: null,
+    pershkrimi: "Mbështjellëse transparente për telefonin gjatë pushimeve, me kapëse plastike dhe kordelë për mbajtje.",
+    specifikat: ["IPX8; për telefona deri në 7.2 inç","ABS + PVC; 222 × 125 × 21 mm; kordelë e përfshirë","Mbështet ekranin me prekje përmes mbështjellëses; testo rrjedhjet para çdo përdorimi"],
+    burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-phone-bag-hx52/", demo: false
+  },
+  {
+    id: "hoco-clear-fantasy-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco Clear fantasy", kategoria: "aksesore", nenkategoria: "",
+    modeli: "Clear fantasy", cmimi: 800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-clear-fantasy-waterproof.jpg", stoku: null,
+    pershkrimi: "Mbështjellëse transparente me mbyllje me kapëse, praktike për telefonin në plazh ose pishinë.",
+    specifikat: ["TPU + ABS; përmasa 105 × 200 mm; peshë 56 g","Thellësi e deklaruar nga prodhuesi deri 20 m; testo rrjedhjet para çdo përdorimi","Ekrani me prekje nuk punon nën presionin e ujit; përputhshmëria varet nga përmasat e telefonit"],
+    burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-case-clear-fantasy-universal-swim-bag-depth-20m/", demo: false
   }
 ]);

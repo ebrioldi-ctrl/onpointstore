@@ -59,10 +59,9 @@
     },
     {
       id: "aksesore", name: "Aksesorë të tjerë telefoni", icon: "headphones", allLabel: "Të gjithë aksesorët",
-      description: "Zbulo adaptorë, USB, çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
+      description: "Zbulo adaptorë, çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
       subcategories: [
-        { id: "adaptors", name: "Adaptors", title: "Adaptors" },
-        { id: "usb", name: "USB", title: "Memorie USB" }
+        { id: "adaptors", name: "Adaptors", title: "Adaptors" }
       ],
       preview: {
         image: "hover cover/akesortetjertelefoni.jpg", alt: "Aksesorë dhe pajisje për telefon",

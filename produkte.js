@@ -9,7 +9,7 @@
  * kategoria: karikues | kasa | syze | lodra | aksesore.
  * nenkategoria sipas kategorisë:
  * karikues: iphone | samsung; kasa: iphone | samsung;
- * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | usb | "".
+ * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | "".
  * Nënkategoria bosh te karikuesit përdoret për lidhës universalë.
  * Opsionale: nenkategorite është listë nënkategorish për të njëjtin produkt.
  * P.sh. Stitch ka nenkategoria: "", nenkategorite: ["goca", "cuna"]:
@@ -123,13 +123,6 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     burimi: "https://hocotech.com/product/mobile-accessories/cables/lightning/cable-for-lightning-to-hdtv-ua27/", demo: false
   },
   {
-    id: "hoco-ua38c-led", emri: "Adaptor USB-A / USB-C me dritë LED Hoco UA38C", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "UA38C", cmimi: 700, foto: "assets/products/hoco/hoco-ua38c-led.jpg", stoku: null,
-    pershkrimi: "Dritë LED kompakte për ndriçim praktik, që furnizohet nga një karikues ose power bank.",
-    specifikat: ["Lidhje USB-A / USB-C; kokë LED me shpërndarës drite", "Trup prej aliazh alumini dhe kabllo me najlon", "Peshë 21 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/cable-adapter-usb-a-type-c-to-led-light-ua38c/", demo: false
-  },
-  {
     id: "hoco-ua37-rj45", emri: "Adaptor USB-C në RJ45 Hoco UA37", kategoria: "aksesore", nenkategoria: "adaptors",
     modeli: "UA37", cmimi: 700, foto: "assets/products/hoco/hoco-ua37-rj45.jpg", stoku: null,
     pershkrimi: "Përshtatës për lidhje interneti me kabllo Ethernet në pajisje USB-C që mbështesin OTG.",
@@ -137,73 +130,10 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/adapter-type-c-to-rj45-ua37/", demo: false
   },
   {
-    id: "hoco-ua36d-lightning", emri: "Adaptor USB-C në Lightning Hoco UA36D", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "UA36D", cmimi: 500, foto: "assets/products/hoco/hoco-ua36d-lightning.jpg", stoku: null,
-    pershkrimi: "Përdor kabllon Lightning për karikim dhe të dhëna në një pajisje me portë USB-C.",
-    specifikat: ["USB-C mashkull → Lightning femër; karikim deri 3A", "USB 2.0 deri 480 Mbps; tregues LED", "Nuk mbështet audio ose thirrje"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/adapter-type-c-to-ip-ua36d/", demo: false
-  },
-  {
-    id: "hoco-e80-travel", emri: "Marrës Bluetooth AUX Hoco E80 Travel", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "E80", cmimi: 600, foto: "assets/products/hoco/hoco-e80-travel.jpg", stoku: null,
-    pershkrimi: "Shto lidhje pa tela për muzikë dhe thirrje në makinë ose altoparlant me hyrje AUX.",
-    specifikat: ["Bluetooth 5.3; lidhës AUX 3.5 mm i heqshëm; distancë deri 10 m", "Bateri 250 mAh; deri 12 orë përdorim, karikim rreth 2 orë", "Ekran LED për nivelin e baterisë"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/car-aux-bt-receiver-e80-travel/", demo: false
-  },
-  {
-    id: "hoco-ud4-intelligent-32gb", emri: "Memorie USB Hoco UD4 Intelligent 32GB", kategoria: "aksesore", nenkategoria: "usb",
-    modeli: "UD4", cmimi: 800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud4-intelligent-32gb.jpg", stoku: null,
-    pershkrimi: "Memorie USB kompakte me trup metalik për ruajtjen dhe transportimin e dokumenteve, fotove e muzikës.",
-    specifikat: ["Kapacitet 32GB; lidhës USB-A, USB 2.0","Lexim 10–30 MB/s; shkrim 6–10 MB/s","Trup prej aliazh zinku; peshë 7 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud4-intelligent/", demo: false
-  },
-  {
-    id: "hoco-ud5-wisdom-64gb", emri: "Memorie USB Hoco UD5 Wisdom 64GB", kategoria: "aksesore", nenkategoria: "usb",
-    modeli: "UD5", cmimi: 1400, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud5-wisdom-64gb.jpg", stoku: null,
-    pershkrimi: "Memorie USB 3.0 me trup metalik për transferimin praktik të skedarëve dhe kopjeve rezervë.",
-    specifikat: ["Kapacitet 64GB; lidhës USB-A, USB 3.0","Lexim 20–90 MB/s; shkrim 15–80 MB/s","Trup prej aliazh zinku; peshë 18.5 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud5-zinc-alloy/", demo: false
-  },
-  {
-    id: "hoco-ud6-intelligent-32gb", emri: "Memorie USB Hoco UD6 Intelligent 32GB", kategoria: "aksesore", nenkategoria: "usb",
-    modeli: "UD6", cmimi: 700, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud6-intelligent-32gb.jpg", stoku: null,
-    pershkrimi: "Memorie USB e lehtë për skedarët e përditshëm, me trup kompakt në ngjyrë të zezë mat.",
-    specifikat: ["Kapacitet 32GB; lidhës USB-A, USB 2.0","Lexim 10–30 MB/s; shkrim 6–10 MB/s","Material ABS dhe pllakë PCB; peshë 7 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-disk-ud6-intelligent-2-0/", demo: false
-  },
-  {
-    id: "hoco-ud8-smart-64gb", emri: "Memorie USB-C Hoco UD8 Smart 64GB", kategoria: "aksesore", nenkategoria: "usb",
-    modeli: "UD8", cmimi: 1800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud8-smart-64gb.jpg", stoku: null,
-    pershkrimi: "Memorie me lidhës USB-C për ruajtjen dhe transferimin e skedarëve në pajisje që mbështesin memorie USB-C.",
-    specifikat: ["Kapacitet 64GB; varianti me lidhës USB-C, USB 3.0","Lexim 70–100 MB/s; shkrim 30–40 MB/s","Trup prej aliazh zinku; peshë 10 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-or-type-c-flash-drive-ud8-smart-3-0/", demo: false
-  },
-  {
-    id: "hoco-ud9-insightful-64gb", emri: "Memorie USB Hoco UD9 Insightful 64GB", kategoria: "aksesore", nenkategoria: "usb",
-    modeli: "UD9", cmimi: 1200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud9-insightful-64gb.jpg", stoku: null,
-    pershkrimi: "Memorie USB me përmasa të vogla, praktike për muzikë në makinë dhe skedarë të përditshëm.",
-    specifikat: ["Kapacitet 64GB; lidhës USB-A, USB 2.0","Lexim 15–25 MB/s; shkrim 6–10 MB/s","Aliazh zinku dhe ABS; përmasa 26.3 × 12.2 × 4.4 mm, peshë 7 g"],
-    burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-drive-ud9-insightful-2-0/", demo: false
-  },
-  {
     id: "hoco-hx53-treasure-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco HX53 Treasure", kategoria: "aksesore", nenkategoria: "",
     modeli: "HX53", cmimi: 1200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-hx53-treasure-waterproof.avif", stoku: null,
     pershkrimi: "Qese mbrojtëse për plazh e pishinë, me dritare transparente për kamerat dhe kordelë për mbajtje.",
     specifikat: ["IPX8; për telefona deri në 7.2 inç","PU + TPU; 240 × 120 × 15 mm; kordelë e përfshirë","Pa kontroll me prekje nën ujë ose zhbllokim me gjurmë; testo rrjedhjet para çdo përdorimi"],
     burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-phone-bag-hx53-treasure/", demo: false
-  },
-  {
-    id: "hoco-hx52-waterproof", emri: "Qese ujëmbrojtëse transparente Hoco HX52", kategoria: "aksesore", nenkategoria: "",
-    modeli: "HX52", cmimi: 1000, cmimiOrientues: true, foto: "assets/products/hoco/hoco-hx52-waterproof.avif", stoku: null,
-    pershkrimi: "Mbështjellëse transparente për telefonin gjatë pushimeve, me kapëse plastike dhe kordelë për mbajtje.",
-    specifikat: ["IPX8; për telefona deri në 7.2 inç","ABS + PVC; 222 × 125 × 21 mm; kordelë e përfshirë","Mbështet ekranin me prekje përmes mbështjellëses; testo rrjedhjet para çdo përdorimi"],
-    burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-phone-bag-hx52/", demo: false
-  },
-  {
-    id: "hoco-clear-fantasy-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco Clear fantasy", kategoria: "aksesore", nenkategoria: "",
-    modeli: "Clear fantasy", cmimi: 800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-clear-fantasy-waterproof.jpg", stoku: null,
-    pershkrimi: "Mbështjellëse transparente me mbyllje me kapëse, praktike për telefonin në plazh ose pishinë.",
-    specifikat: ["TPU + ABS; përmasa 105 × 200 mm; peshë 56 g","Thellësi e deklaruar nga prodhuesi deri 20 m; testo rrjedhjet para çdo përdorimi","Ekrani me prekje nuk punon nën presionin e ujit; përputhshmëria varet nga përmasat e telefonit"],
-    burimi: "https://hocotech.com/product/mobile-accessories/waterproof-phone-bags/waterproof-case-clear-fantasy-universal-swim-bag-depth-20m/", demo: false
   }
 ]);

@@ -5,9 +5,9 @@ Dyqan statik me HTML, CSS dhe JavaScript, pa framework. Hap `index.html` në shf
 ## Çfarë duhet plotësuar para publikimit
 
 1. **WhatsApp:** numri i dhënë nga dyqani është vendosur te `config.js`, fusha `whatsappNumber`, në format ndërkombëtar me prefiksin `355`, vetëm shifra. Nëse e ndryshon, përdor prefiksin ndërkombëtar, pa `+`, hapësira ose zero paraprirëse. Porosia përgatitet në mesazh dhe dërgohet vetëm nga klienti.
-2. **Produktet:** katalogu te `produkte.js` ka 22 produkte: 8 kasa, 7 syze, 2 karikues (fishë + adaptor), 3 adaptorë, 1 qese ujëmbrojtëse dhe Stitch. Çdo produkt ka `id`, `emri`, `kategoria`, `nenkategoria`, `cmimi`, `foto`, `pershkrimi`, `demo: false`. Çmimet janë numra në lekë; përdor `cmimi: null` kur mungon çmimi, që katalogu, shporta dhe mesazhi i porosisë të shfaqin “Pyet për çmimin”. Nëse një produkt në shportë nuk ka çmim, edhe totali kërkon konfirmim. Për produktet e reja, shto një hyrje dhe rrugën relative të fotos; krijimi i dosjes vetëm nuk e shton automatikisht produktin. Ruaj ID të qëndrueshme dhe mos ripërdor ID të një produkti tjetër. Stitch përdor edhe `nenkategorite: ["goca", "cuna"]` që të shfaqet në të dy filtrat si një produkt i vetëm.
+2. **Produktet:** katalogu te `produkte.js` ka 19 produkte: 8 kasa, 7 syze, 2 karikues (fishë + adaptor), 1 qese ujëmbrojtëse dhe Stitch. Çdo produkt ka `id`, `emri`, `kategoria`, `nenkategoria`, `cmimi`, `foto`, `pershkrimi`, `demo: false`. Çmimet janë numra në lekë; përdor `cmimi: null` kur mungon çmimi, që katalogu, shporta dhe mesazhi i porosisë të shfaqin “Pyet për çmimin”. Nëse një produkt në shportë nuk ka çmim, edhe totali kërkon konfirmim. Për produktet e reja, shto një hyrje dhe rrugën relative të fotos; krijimi i dosjes vetëm nuk e shton automatikisht produktin. Ruaj ID të qëndrueshme dhe mos ripërdor ID të një produkti tjetër. Stitch përdor edhe `nenkategorite: ["goca", "cuna"]` që të shfaqet në të dy filtrat si një produkt i vetëm.
 3. **Kategoritë dhe nënkategoritë:** përdor vlerat në tabelën më poshtë. iPhone dhe Samsung te `kasa` janë kasa telefoni, jo telefona. Kasa dhe karikues për modele ose pajtueshmëri të ndryshme duhen hyrje të veçanta; verifiko veçanërisht lidhësin dhe fuqinë e karikuesve përpara publikimit.
-4. Konfirmo disponueshmërinë, modelet, materialet dhe informacionin që do t'u japësh klientëve. Përshkrimet e 18 produkteve fillestare përdorin emrat e skedarëve dhe fotot e dhëna. Për 4 produktet Hoco të mbetura, `modeli`, `specifikat` dhe `burimi` ruajnë kodin ose emrin e modelit, specifikat dhe lidhjen nga faqja globale të kontrolluar më 18 nëntor 2026. Produktet e ardhshme Hoco duhen marrë nga faqja shqiptare, sipas udhëzimit të dyqanit. `stoku: null` shfaq “Stoku: pa konfirmuar”. `cmimiOrientues: true` shënon çmimin fillestar të HX53, të zgjedhur me kërkesë të dyqanit; kjo është metadata për mirëmbajtje dhe çmimi shfaqet normalisht në katalog. Kur mungon fotoja përdoret `assets/placeholder-product.svg` me `fotoProvizore: true`; për ta zëvendësuar, vendos rrugën e fotos reale dhe hiq këtë flamur. Dosja `assets/demo/` ruhet, por ilustrimet e saj nuk përdoren në katalogun aktual.
+4. Konfirmo disponueshmërinë, modelet, materialet dhe informacionin që do t'u japësh klientëve. Përshkrimet e 18 produkteve fillestare përdorin emrat e skedarëve dhe fotot e dhëna. Për të vetmin produkt Hoco të mbetur, HX53, `modeli`, `specifikat` dhe `burimi` ruajnë kodin ose emrin e modelit, specifikat dhe lidhjen nga faqja globale të kontrolluar më 18 nëntor 2026. Produktet e ardhshme Hoco duhen marrë nga faqja shqiptare, sipas udhëzimit të dyqanit. `stoku: null` shfaq “Stoku: pa konfirmuar”. `cmimiOrientues: true` shënon çmimin fillestar të HX53, të zgjedhur me kërkesë të dyqanit; kjo është metadata për mirëmbajtje dhe çmimi shfaqet normalisht në katalog. Kur mungon fotoja përdoret `assets/placeholder-product.svg` me `fotoProvizore: true`; për ta zëvendësuar, vendos rrugën e fotos reale dhe hiq këtë flamur. Dosja `assets/demo/` ruhet, por ilustrimet e saj nuk përdoren në katalogun aktual.
 5. Plotëso informacionin real të kontaktit dhe kushtet e kthimeve që do t'u komunikosh klientëve. Transporti kushton 100 lekë brenda Durrësit dhe 300 lekë në pjesën tjetër të Shqipërisë; shfaqet te shporta në të dyja faqet dhe përfshihet në mesazhin WhatsApp. Totali aktual përfshin vetëm produktet; disponueshmëria dhe porosia konfirmohen nga dyqani në WhatsApp.
 6. Provo një porosi me numrin real në telefonin tënd përpara publikimit. Faqja nuk është publikuar dhe asnjë porosi nuk dërgohet automatikisht.
 
@@ -17,7 +17,7 @@ Dyqan statik me HTML, CSS dhe JavaScript, pa framework. Hap `index.html` në shf
 | Kasa telefoni (`kasa`) | `iphone`, `samsung` |
 | Syze (`syze`) | `femra`, `meshkuj` |
 | Lodra (`lodra`) | `goca`, `cuna` |
-| Aksesorë të tjerë telefoni (`aksesore`) | `adaptors`, `""` (bosh; përfshin qesen ujëmbrojtëse) |
+| Aksesorë të tjerë telefoni (`aksesore`) | `""` (pa nënkategori; përfshin qesen ujëmbrojtëse) |
 
 Çmimet e vendosura sipas udhëzimit të dyqanit:
 
@@ -27,9 +27,8 @@ Dyqan statik me HTML, CSS dhe JavaScript, pa framework. Hap `index.html` në shf
 | Çdo palë syze | 2 500 lekë |
 | Secili karikues (fishë + adaptor) | 1 200 lekë |
 | Stitch me muzikë dhe kërcim | 1 800 lekë |
-| Hoco UPA32B, UA27, UA37 | 700 lekë |
 
-Fotot lidhen nga `kasa/`, `syze/`, `karikus/` dhe `lodra/`. Të 4 produktet Hoco të mbetura përdorin fotot zyrtare të shkarkuara nga faqet e tyre te `hocotech.com`, të ruajtura lokalisht në `assets/products/hoco/` në përmasa 800 × 800 px. HX53 ruan formatin origjinal AVIF; fotot e tjera janë JPG. Fusha `burimi` e secilit produkt lidh faqen zyrtare përkatëse. Fotot nuk varen nga lidhje të jashtme gjatë shfaqjes së katalogut. Te `aksesore/adaptors` gjenden UPA32B, UA27 dhe UA37.
+Fotot lidhen nga `kasa/`, `syze/`, `karikus/` dhe `lodra/`. HX53 përdor foton zyrtare të shkarkuar nga faqja e tij te `hocotech.com`, të ruajtur lokalisht në `assets/products/hoco/hoco-hx53-treasure-waterproof.avif` në përmasa 800 × 800 px dhe në formatin origjinal AVIF. Fusha `burimi` lidh faqen zyrtare përkatëse. Fotot nuk varen nga lidhje të jashtme gjatë shfaqjes së katalogut.
 
 Çmimi i mëposhtëm është propozim fillestar në lekë, i vendosur me kërkesë të dyqanit më 18 nëntor 2026.
 
@@ -39,14 +38,14 @@ Fotot lidhen nga `kasa/`, `syze/`, `karikus/` dhe `lodra/`. Të 4 produktet Hoco
 
 HX53 është qesja ujëmbrojtëse te aksesorët pa nënkategori; përmasat dhe kufizimet e përdorimit të saj jepen te specifikat. Të gjitha lidhjet e dhëna nga dyqani u hapën, pas riprovimit të disa kërkesave që fillimisht skaduan.
 
-Më 19 nëntor 2026 u hoqën, sipas kërkesës së dyqanit, fillimisht U137, X114, X102, X113, Z60, Z54, Z58, Z57B, NZ17 dhe Z59A; më pas u hoqën edhe UD8, UA38C, Clear fantasy, E80, UD9, UD5, UA36D, UD4, HX52 dhe UD6. Nuk janë shtuar produkte zëvendësuese nga faqja shqiptare.
+Më 19 nëntor 2026 u hoqën, sipas kërkesës së dyqanit, fillimisht U137, X114, X102, X113, Z60, Z54, Z58, Z57B, NZ17 dhe Z59A; më pas u hoqën edhe UD8, UA38C, Clear fantasy, E80, UD9, UD5, UA36D, UD4, HX52 dhe UD6. Në vijim u hoqën UPA32B, UA27 dhe UA37. Nuk janë shtuar produkte zëvendësuese nga faqja shqiptare.
 
 ## Si funksionon
 
 - Të dyja faqet lexojnë të njëjtën listë te `produkte.js` dhe të njëjtin kod te `app.js`.
 - Pamja “Të gjitha produktet” i përzien produktet rastësisht sa herë hapet ose rifreskohet faqja. Kërkimi ruan rendin gjatë së njëjtës hapje; kategoritë përdorin rendin e katalogut.
 - Lidhja për kasat iPhone: `produktet.html?kategoria=kasa&nenkategoria=iphone`. Filtrat lexohen me `URLSearchParams`; kërkimi përdor `q` dhe nuk dallon shkronjat e mëdha ose thekset.
-- Lidhja për adaptorët: `produktet.html?kategoria=aksesore&nenkategoria=adaptors`. Kërkimi përfshin edhe kodin Hoco dhe specifikat.
+- Lidhja për aksesorët: `produktet.html?kategoria=aksesore`. Kërkimi përfshin edhe kodin Hoco dhe specifikat.
 - Qesja ujëmbrojtëse HX53 shfaqet te të gjithë aksesorët, pa nënkategori.
 - Në ballinë, kategoritë me nënkategori kanë buton me shigjetë për t'i hapur/mbyllur me prekje. Në kompjuter mund të përdoret edhe hover/fokusi. Katalogu ofron filtrat për nënkategoritë e kategorisë së zgjedhur.
 - Fotot e kategorive merren nga dosja `hover cover/`; lidhjet për secilën janë te fusha `preview.image` e kategorive në `app.js`. Hover-i, fokusi me tastierë ose butoni me shigjetë ndërrojnë foton, titullin dhe lidhjen e bannerit. Kasa telefoni përdor `banner-kasa.png`. Fotot mbushin gjithë bannerin me shkrimin sipër dhe hije për lexueshmëri, në kompjuter dhe celular. Pozicionet e secilës foto rregullohen te selektorët `data-category-preview` në `style.css`, që produktet të mbeten sa më të dukshme gjatë përshtatjes së figurës.
@@ -64,7 +63,7 @@ Lidhja dhe mesazhi i WhatsApp kontrollohen lokalisht, pa dërguar mesazh. Numri 
 
 ## Verifikimi historik i produkteve Hoco
 
-Kontrollet më poshtë dokumentojnë versionet përpara heqjes së 20 produkteve më 19 nëntor 2026; numrat dhe produktet e përmendura në to nuk përshkruajnë katalogun aktual.
+Kontrollet më poshtë dokumentojnë versionet përpara heqjes së 23 produkteve më 19 nëntor 2026; numrat dhe produktet e përmendura në to nuk përshkruajnë katalogun aktual.
 
 Më 18 nëntor 2026 kaluan 53 kontrolle në Chrome: kalimi nga ballina te Adaptors, 6 adaptorët dhe 5 produktet e reja te Karikues, filtrat ekzistues iPhone/Samsung, kërkimi sipas kodit/specifikave, imazhet lokale dhe të 33 specifikat. U provuan shtimi i 11 produkteve në shportë (6 900 lekë), ndryshimi i sasisë dhe ruajtja pas rifreskimit. Çmimet `null`, të munguara, bosh ose jo numerike shfaqën “Pyet për çmimin” edhe në shportë dhe mesazhin e porosisë, pa total të pjesshëm. Pamjet 360, 390 dhe 1440 px nuk patën dalje horizontale; nuk pati gabime JavaScript ose imazhe që mungojnë. Mesazhet WhatsApp vetëm u kontrolluan, pa u dërguar.
 

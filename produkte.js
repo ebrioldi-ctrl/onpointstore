@@ -9,7 +9,7 @@
  * kategoria: karikues | kasa | syze | lodra | aksesore.
  * nenkategoria sipas kategorisë:
  * karikues: iphone | samsung; kasa: iphone | samsung;
- * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | "".
+ * syze: femra | meshkuj; lodra: goca | cuna; aksesore: "".
  * Nënkategoria bosh te karikuesit përdoret për lidhës universalë.
  * Opsionale: nenkategorite është listë nënkategorish për të njëjtin produkt.
  * P.sh. Stitch ka nenkategoria: "", nenkategorite: ["goca", "cuna"]:
@@ -107,27 +107,6 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     id: "loder-stitch-muzike-kercim", emri: "Lodër Stitch me muzikë dhe kërcim", kategoria: "lodra", nenkategoria: "", nenkategorite: ["goca", "cuna"],
     cmimi: 1800, foto: "lodra/stich me muzik me kercim.jpeg",
     pershkrimi: "Stitch me muzikë dhe kërcim, sipas fotos.", demo: false
-  },
-  {
-    id: "hoco-upa32b-clever", emri: "Kabllo audio USB-C në 3.5 mm Hoco UPA32B Clever", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "UPA32B", cmimi: 700, foto: "assets/products/hoco/hoco-upa32b-clever.jpg", stoku: null,
-    pershkrimi: "Lidh pajisjen me USB-C me hyrjen AUX 3.5 mm të makinës ose altoparlantit.",
-    specifikat: ["USB-C mashkull → 3.5 mm mashkull; çip DAC, audio Hi-Fi", "Gjatësi 1 m; lidhës 3.5 mm i veshur me ar", "Thurje najloni dhe trup prej aliazh alumini"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/type-c-aka-usb-c/cable-3-5mm-to-type-c-upa32b-clever-audio-conversion/", demo: false
-  },
-  {
-    id: "hoco-ua27-lightning-hdtv", emri: "Kabllo Lightning në HDTV Hoco UA27", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "UA27", cmimi: 700, foto: "assets/products/hoco/hoco-ua27-lightning-hdtv.jpg", stoku: null,
-    pershkrimi: "Kabllo për shfaqjen e përmbajtjes nga pajisje me Lightning në televizor ose ekran HDTV.",
-    specifikat: ["Lightning → HDTV; rezolucion 1080p në 60Hz", "Gjatësi 2 m", "Trup prej aliazh alumini dhe thurje najloni"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/lightning/cable-for-lightning-to-hdtv-ua27/", demo: false
-  },
-  {
-    id: "hoco-ua37-rj45", emri: "Adaptor USB-C në RJ45 Hoco UA37", kategoria: "aksesore", nenkategoria: "adaptors",
-    modeli: "UA37", cmimi: 700, foto: "assets/products/hoco/hoco-ua37-rj45.jpg", stoku: null,
-    pershkrimi: "Përshtatës për lidhje interneti me kabllo Ethernet në pajisje USB-C që mbështesin OTG.",
-    specifikat: ["USB-C mashkull → RJ45 femër; Ethernet 10/100/1000 Mbps", "Plug and play, pa drejtues; kërkon mbështetje OTG", "Kabllo 12 cm; alumin dhe najlon"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/adapter-type-c-to-rj45-ua37/", demo: false
   },
   {
     id: "hoco-hx53-treasure-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco HX53 Treasure", kategoria: "aksesore", nenkategoria: "",

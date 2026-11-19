@@ -59,10 +59,8 @@
     },
     {
       id: "aksesore", name: "Aksesorë të tjerë telefoni", icon: "headphones", allLabel: "Të gjithë aksesorët",
-      description: "Zbulo adaptorë, çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
-      subcategories: [
-        { id: "adaptors", name: "Adaptors", title: "Adaptors" }
-      ],
+      description: "Zbulo çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
+      subcategories: [],
       preview: {
         image: "hover cover/akesortetjertelefoni.jpg", alt: "Aksesorë dhe pajisje për telefon",
         title: "Detaje që të duhen.", description: "Eksploro aksesorët për telefonin tënd.", button: "Shiko aksesorët"

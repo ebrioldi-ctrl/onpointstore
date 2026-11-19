@@ -15,12 +15,11 @@
       description: "Zgjidh kabllo dhe karikues sipas lidhësit dhe pajisjes tënde.",
       preview: {
         image: "hover cover/karikusa.jpg", alt: "Karikues dhe kabllo për telefon",
-        title: "Karikues për çdo ditë.", description: "Zbulo kabllo dhe karikues për telefonin ose makinën tënde.", button: "Shiko karikuesit"
+        title: "Karikues për çdo ditë.", description: "Zbulo karikues për iPhone dhe Samsung.", button: "Shiko karikuesit"
       },
       subcategories: [
         { id: "iphone", name: "Për iPhone", title: "Karikues për iPhone" },
-        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" },
-        { id: "makine", name: "Karikues makine", title: "Karikues makine" }
+        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" }
       ]
     },
     {

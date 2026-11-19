@@ -8,7 +8,7 @@
  * Mos ripërdorni ID të shembujve të vjetër për produkte të tjera reale.
  * kategoria: karikues | kasa | syze | lodra | aksesore.
  * nenkategoria sipas kategorisë:
- * karikues: iphone | samsung | makine; kasa: iphone | samsung;
+ * karikues: iphone | samsung; kasa: iphone | samsung;
  * syze: femra | meshkuj; lodra: goca | cuna; aksesore: adaptors | usb | "".
  * Nënkategoria bosh te karikuesit përdoret për lidhës universalë.
  * Opsionale: nenkategorite është listë nënkategorish për të njëjtin produkt.
@@ -109,34 +109,6 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     pershkrimi: "Stitch me muzikë dhe kërcim, sipas fotos.", demo: false
   },
   {
-    id: "hoco-u137-line", emri: "Kabllo USB-C në USB-C Hoco U137 Line", kategoria: "karikues", nenkategoria: "",
-    modeli: "U137", cmimi: 500, foto: "assets/products/hoco/hoco-u137-line.jpg", stoku: null,
-    pershkrimi: "Kabllo për karikim të shpejtë dhe të dhëna, me ekran që tregon fuqinë e karikimit.",
-    specifikat: ["USB-C → USB-C; PD deri 60W (20V/3A)", "Gjatësi 1.2 m; ekran digjital LED", "Thurje najloni dhe konektorë prej aliazh zinku"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/type-c-aka-usb-c/cable-type-c-to-type-c-u137-line-pd-60w-fast-charge/", demo: false
-  },
-  {
-    id: "hoco-x114-energy", emri: "Kabllo USB-A në USB-C Hoco X114 Energy", kategoria: "karikues", nenkategoria: "",
-    modeli: "X114", cmimi: 500, foto: "assets/products/hoco/hoco-x114-energy.jpg", stoku: null,
-    pershkrimi: "Kabllo për karikimin e telefonave e tabletëve me USB-C dhe transferimin e të dhënave.",
-    specifikat: ["USB-A → USB-C; rrymë deri 3A", "Gjatësi 1 m", "Mbështjellje dhe konektorë PVC"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/type-c-aka-usb-c/cable-usb-to-type-c-x114-energy/", demo: false
-  },
-  {
-    id: "hoco-x102-fresh", emri: "Kabllo USB-C në Lightning Hoco X102 Fresh", kategoria: "karikues", nenkategoria: "iphone",
-    modeli: "X102", cmimi: 500, foto: "assets/products/hoco/hoco-x102-fresh.jpg", stoku: null,
-    pershkrimi: "Kabllo për karikim të shpejtë dhe të dhëna për iPhone e iPad me portë Lightning.",
-    specifikat: ["USB-C → Lightning; PD deri 27W", "Gjatësi 1 m", "Thurje najloni dhe konektorë prej aliazh alumini"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/lightning/cable-type-c-to-lightning-x102-fresh-pd-27w-fast-charge/", demo: false
-  },
-  {
-    id: "hoco-x113-beneficio", emri: "Kabllo USB-A në Micro-USB Hoco X113 Beneficio", kategoria: "karikues", nenkategoria: "",
-    modeli: "X113", cmimi: 500, foto: "assets/products/hoco/hoco-x113-beneficio.jpg", stoku: null,
-    pershkrimi: "Kabllo për karikim dhe të dhëna për telefona e pajisje me portë Micro-USB.",
-    specifikat: ["USB-A → Micro-USB; rrymë deri 2.4A", "Gjatësi 1 m", "Thurje najloni dhe konektorë PVC"],
-    burimi: "https://hocotech.com/product/mobile-accessories/cables/micro-usb/cable-usb-to-micro-usb-x113-beneficio/", demo: false
-  },
-  {
     id: "hoco-upa32b-clever", emri: "Kabllo audio USB-C në 3.5 mm Hoco UPA32B Clever", kategoria: "aksesore", nenkategoria: "adaptors",
     modeli: "UPA32B", cmimi: 700, foto: "assets/products/hoco/hoco-upa32b-clever.jpg", stoku: null,
     pershkrimi: "Lidh pajisjen me USB-C me hyrjen AUX 3.5 mm të makinës ose altoparlantit.",
@@ -179,13 +151,6 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     burimi: "https://hocotech.com/product/mobile-accessories/cables/adapters/car-aux-bt-receiver-e80-travel/", demo: false
   },
   {
-    id: "hoco-z60-bloom", emri: "Karikues makine Hoco Z60 Bloom 48W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "Z60", cmimi: 1000, foto: "assets/products/hoco/hoco-z60-bloom.jpg", stoku: null,
-    pershkrimi: "Karikues makine me dy porta për karikim të shpejtë gjatë udhëtimit.",
-    specifikat: ["USB-C deri 30W + USB-A deri 18W; gjithsej 48W", "Hyrje 12–24V; PD, PPS dhe QC3.0", "Varianti me kabllo USB-A → USB-C 1 m konfirmohet me dyqanin"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z60-bloom-48w-cable-set/", demo: false
-  },
-  {
     id: "hoco-ud4-intelligent-32gb", emri: "Memorie USB Hoco UD4 Intelligent 32GB", kategoria: "aksesore", nenkategoria: "usb",
     modeli: "UD4", cmimi: 800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-ud4-intelligent-32gb.jpg", stoku: null,
     pershkrimi: "Memorie USB kompakte me trup metalik për ruajtjen dhe transportimin e dokumenteve, fotove e muzikës.",
@@ -219,41 +184,6 @@ window.ON_POINT_PRODUCTS = Object.freeze([
     pershkrimi: "Memorie USB me përmasa të vogla, praktike për muzikë në makinë dhe skedarë të përditshëm.",
     specifikat: ["Kapacitet 64GB; lidhës USB-A, USB 2.0","Lexim 15–25 MB/s; shkrim 6–10 MB/s","Aliazh zinku dhe ABS; përmasa 26.3 × 12.2 × 4.4 mm, peshë 7 g"],
     burimi: "https://hocotech.com/product/mobile-accessories/flash-disks/usb-flash-drive-ud9-insightful-2-0/", demo: false
-  },
-  {
-    id: "hoco-z54-prosperous", emri: "Karikues makine Hoco Z54 Prosperous 15.5W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "Z54", cmimi: 600, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z54-prosperous.jpg", stoku: null,
-    pershkrimi: "Karikues kompakt me dy porta USB për karikimin e përditshëm gjatë udhëtimit.",
-    specifikat: ["2 × USB-A, secila deri 12W; gjithsej 15.5W (5V/3.1A)","Hyrje 12–24V; trup alumini dhe unazë LED blu","Varianti vetëm karikues, pa kabllo USB"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z54-prosperous-15-5w-cable-set/", demo: false
-  },
-  {
-    id: "hoco-z58-rank", emri: "Karikues makine Hoco Z58 Rank 30W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "Z58", cmimi: 900, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z58-rank.jpg", stoku: null,
-    pershkrimi: "Karikues me portë USB-C për karikim të shpejtë të telefonit në makinë.",
-    specifikat: ["1 × USB-C deri 30W; PD3.0, PPS dhe QC3.0","Hyrje 12–24V; tregues LED dhe unazë alumini","Varianti vetëm karikues, pa kabllo USB"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z58-rank-30w-cable-set/", demo: false
-  },
-  {
-    id: "hoco-z57b-glorious", emri: "Karikues makine Hoco Z57B Glorious 63W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "Z57B", cmimi: 1500, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z57b-glorious.jpg", stoku: null,
-    pershkrimi: "Karikues me dy porta dhe ekran digjital që tregon tensionin e baterisë së makinës.",
-    specifikat: ["USB-C deri 45W + USB-A deri 18W; gjithsej 63W","Hyrje 12–24V; PD3.0, PPS, SFC2.0 dhe QC3.0","Ekran LED dhe trup alumini; pa kabllo USB"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z57b-glorious-63w-cable-set/", demo: false
-  },
-  {
-    id: "hoco-nz17-avant-garde", emri: "Karikues makine Hoco NZ17 Avant-garde 75W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "NZ17", cmimi: 1800, cmimiOrientues: true, foto: "assets/products/hoco/hoco-nz17-avant-garde.jpg", stoku: null,
-    pershkrimi: "Karikues me tri porta dhe ndriçim me tri ngjyra për disa pajisje gjatë udhëtimit.",
-    specifikat: ["2 × USB-C (45W/30W) + 1 × USB-A deri 18W","Deri 75W me dy USB-C; deri 60W kur përdoren tri portat","Hyrje 12–24V; PD3.0 dhe PPS; pa kabllo USB"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-nz17-avant-garde-75w-cable-set/", demo: false
-  },
-  {
-    id: "hoco-z59a-rank", emri: "Karikues makine Hoco Z59A Rank 96W", kategoria: "karikues", nenkategoria: "makine",
-    modeli: "Z59A", cmimi: 2200, cmimiOrientues: true, foto: "assets/products/hoco/hoco-z59a-rank.jpg", stoku: null,
-    pershkrimi: "Karikues me katër porta USB dhe prizë shtesë çakmaku për pajisjet e pasagjerëve.",
-    specifikat: ["2 × USB-C 30W + 2 × USB-A 18W; gjithsej deri 96W","Hyrje 12–24V; PD3.0, PPS dhe QC3.0; kabllo ndërlidhëse 75 cm","Prizë çakmaku deri 120W në 12V ose 240W në 24V"],
-    burimi: "https://hocotech.com/product/mobile-accessories/in-car/car-chargers/car-charger-z59a-rank-96w-1xcigarette-lighter-slot/", demo: false
   },
   {
     id: "hoco-hx53-treasure-waterproof", emri: "Qese ujëmbrojtëse telefoni Hoco HX53 Treasure", kategoria: "aksesore", nenkategoria: "",

@@ -1,0 +1,652 @@
+{
+  "checkedAt": "2026-11-19",
+  "source": "https://hoco.al/",
+  "selectionCounts": {
+    "headphones": 5,
+    "watches": 3,
+    "holders": 10
+  },
+  "notes": [
+    "Zero-price or image-less imported placeholder products were excluded. All selected items are priced and pictured in the Albanian source catalog.",
+    "API prices.price is the active price; currency ALL has 0 minor units. Added exactly 200 ALL per selected product.",
+    "All second images visually checked in a contact sheet; packaging flags reflect actual visible contents."
+  ],
+  "products": [
+    {
+      "id": "hoco-al-kufje-me-kabllo-dhe-mikrofon-m97-enjoy",
+      "sourceProductId": 8996,
+      "url": "https://hoco.al/product/kufje-me-kabllo-dhe-mikrofon-m97-enjoy/",
+      "category": "headphones",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "400",
+      "regularPrice": 400,
+      "salePrice": 400,
+      "activePrice": 400,
+      "markup": 200,
+      "finalPrice": 600,
+      "imageSelection": [
+        0,
+        4
+      ],
+      "galleryCount": 5,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/kufje-me-kabllo-dhe-mikrofon-m97-enjoy-1.jpg",
+          "bytes": 20202,
+          "sha256": "9d5ec9c39e4e18b84d81a782bf8b0f214c1025636681558b1d2d7b20adf85646",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-m97-enjoy-universal-earphones-with-mic-plug.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/kufje-me-kabllo-dhe-mikrofon-m97-enjoy-2.jpg",
+          "bytes": 81550,
+          "sha256": "5e59a64c9555b3c3cd81fd4f8f76e274c883f3a4b44f166c787f41acb075d660",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-m97-enjoy-universal-earphones-with-mic-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-kufje-bluetooth-wireless-w41-charm",
+      "sourceProductId": 8789,
+      "url": "https://hoco.al/product/kufje-bluetooth-wireless-w41-charm/",
+      "category": "headphones",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1600",
+      "regularPrice": 1600,
+      "salePrice": 1600,
+      "activePrice": 1600,
+      "markup": 200,
+      "finalPrice": 1800,
+      "imageSelection": [
+        0,
+        7
+      ],
+      "galleryCount": 8,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-wireless-w41-charm-1.jpg",
+          "bytes": 42334,
+          "sha256": "d757710b1996def1c5b4b8fdf340dbe1f421bb0e08a10bd7a4ac687889d5859e",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-w41-charm-bt-headphones.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-wireless-w41-charm-2.jpg",
+          "bytes": 83243,
+          "sha256": "82a1151356bb3e85c93765937eb25b41145b3a3ec3f7e0fed915c7297a181704",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-w41-charm-bt-headphones-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-kufje-gaming-me-kabllo-usb7-1-w109-rich",
+      "sourceProductId": 8779,
+      "url": "https://hoco.al/product/kufje-gaming-me-kabllo-usb7-1-w109-rich/",
+      "category": "headphones",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "2500",
+      "regularPrice": 2500,
+      "salePrice": 2500,
+      "activePrice": 2500,
+      "markup": 200,
+      "finalPrice": 2700,
+      "imageSelection": [
+        0,
+        7
+      ],
+      "galleryCount": 8,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/kufje-gaming-me-kabllo-usb7-1-w109-rich-1.jpg",
+          "bytes": 76960,
+          "sha256": "28dd202e0e100cb2dd21ba48394413c0e02012af24911d4f99195ad8763960df",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-w109-plus-rich-usb7-1-gaming-headphones-cable.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/kufje-gaming-me-kabllo-usb7-1-w109-rich-2.jpg",
+          "bytes": 117156,
+          "sha256": "020ff887b56a6f48b4f7b2a56ec0a60a8fc5c06f784399ab2bebb82207e652fe",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-w109-rich-gaming-headphones-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-kufje-bluetooth-true-wireless-stereo-ew11-melody",
+      "sourceProductId": 9308,
+      "url": "https://hoco.al/product/kufje-bluetooth-true-wireless-stereo-ew11-melody/",
+      "category": "headphones",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "3500",
+      "regularPrice": 4500,
+      "salePrice": 3500,
+      "activePrice": 3500,
+      "markup": 200,
+      "finalPrice": 3700,
+      "imageSelection": [
+        0,
+        5
+      ],
+      "galleryCount": 6,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-true-wireless-stereo-ew11-melody-1.jpg",
+          "bytes": 45178,
+          "sha256": "6cb1d890504d5a2cc8b5ebd56839b824a274126a8719a599b784822d9aa14a89",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ew11-melody-true-wireless-bt-headset-black.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-true-wireless-stereo-ew11-melody-2.jpg",
+          "bytes": 53125,
+          "sha256": "b7364bd1d8794b7a5ae852f4674727f6ae74a692b60623a479b1779eee5edb10",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ew11-melody-true-wireless-bt-headset-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-kufje-bluetooth-wireless-w35-hoco",
+      "sourceProductId": 8887,
+      "url": "https://hoco.al/product/kufje-bluetooth-wireless-w35-hoco/",
+      "category": "headphones",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "4000",
+      "regularPrice": 4000,
+      "salePrice": 4000,
+      "activePrice": 4000,
+      "markup": 200,
+      "finalPrice": 4200,
+      "imageSelection": [
+        0,
+        4
+      ],
+      "galleryCount": 5,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-wireless-w35-hoco-1.webp",
+          "bytes": 53272,
+          "sha256": "0a8831aa919da052c986ffeb6992592986242d4d59b236fbe481c5bb0d513f94",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/Ll6FeTOKgYaGBqLl.webp"
+        },
+        {
+          "path": "assets/products/hoco-al/kufje-bluetooth-wireless-w35-hoco-2.webp",
+          "bytes": 38946,
+          "sha256": "99e18d4b483b1de213f936be1aec3e3ec4774c650a31ca26e1f698b5e59a5b7c",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/tai-nghe-bluetooth-hoco-w35-max-G6122-1702456987499.webp"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": [
+        "Prose contradicts attributes for Bluetooth version (5.1 vs 5.3) and usage time (6h vs 40h); both fields omitted."
+      ]
+    },
+    {
+      "id": "hoco-al-y24-amoled-smart-sports-watchcall-version",
+      "sourceProductId": 13568,
+      "url": "https://hoco.al/product/y24-amoled-smart-sports-watchcall-version/",
+      "category": "watches",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "6000",
+      "regularPrice": 6000,
+      "salePrice": 6000,
+      "activePrice": 6000,
+      "markup": 200,
+      "finalPrice": 6200,
+      "imageSelection": [
+        0,
+        1
+      ],
+      "galleryCount": 2,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/y24-amoled-smart-sports-watchcall-version-1.jpg",
+          "bytes": 33868,
+          "sha256": "6b9cc99fa5565f5a525c8813642ac93cc6bba250ed8d383920b05d366d436c0b",
+          "source": "https://hoco.al/wp-content/uploads/2025/05/1000831698-2.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/y24-amoled-smart-sports-watchcall-version-2.jpg",
+          "bytes": 44210,
+          "sha256": "1d4235e122fd14b540e0bbda506fe7848de2a15933a11baad3f8a83856909f24",
+          "source": "https://hoco.al/wp-content/uploads/2025/05/1000831697-1.jpg"
+        }
+      ],
+      "fotoPaketimi": false,
+      "notes": [
+        "No packaging image in this two-image gallery; both distinct product images retained and second is not labeled packaging.",
+        "All 78 smartwatch API entries reviewed: only 11 have both positive price and images. Available positive source price points are 3500/6000/6500/8000 ALL. Y23 Ultra (3500), Y24 (6000), Y3 Pro (6000) galleries visually checked and none has packaging. Y20 (6500) and Y9 (8000) have verified packaging. Three different prices with three packaging photos cannot be fulfilled from the provided category.",
+        "Y24 selected instead of Y23 Ultra to avoid duplicate first/last images and keep three distinct watch prices (6000/6500/8000 ALL). Source provides no technical description beyond model title and color; unsupported specifications were not added."
+      ]
+    },
+    {
+      "id": "hoco-al-y20-ore-inteligjente-sportive-me-thirrje",
+      "sourceProductId": 11431,
+      "url": "https://hoco.al/product/y20-ore-inteligjente-sportive-me-thirrje/",
+      "category": "watches",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "6500",
+      "regularPrice": 6500,
+      "salePrice": 6500,
+      "activePrice": 6500,
+      "markup": 200,
+      "finalPrice": 6700,
+      "imageSelection": [
+        0,
+        4
+      ],
+      "galleryCount": 5,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/y20-ore-inteligjente-sportive-me-thirrje-1.jpg",
+          "bytes": 72688,
+          "sha256": "aa18b7b494d55555eb2a2833e0d84f514e04bae5c2e8271fdfc3205f2f5198a9",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/Hoco-Smart-Sports-Watch-Y20-Black-WE-00200.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/y20-ore-inteligjente-sportive-me-thirrje-2.jpg",
+          "bytes": 73632,
+          "sha256": "a1fd7743638ceea4f502e0324bf8a36c7f927419d49d5b32b6ed1e3aa3eb5068",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/Hoco-Smart-Sports-Watch-Y20-Black-WE-00200-4.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-y9-ore-inteligjente-sportive-me-thirrje",
+      "sourceProductId": 11436,
+      "url": "https://hoco.al/product/y9-ore-inteligjente-sportive-me-thirrje/",
+      "category": "watches",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "8000",
+      "regularPrice": 8000,
+      "salePrice": 8000,
+      "activePrice": 8000,
+      "markup": 200,
+      "finalPrice": 8200,
+      "imageSelection": [
+        0,
+        5
+      ],
+      "galleryCount": 6,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/y9-ore-inteligjente-sportive-me-thirrje-1.jpg",
+          "bytes": 80548,
+          "sha256": "4c9a6ba5c7e1acfeeb6301b16404781806c6ba1f0e9fac32aabfe15500a5429f",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-y9-smart-sports-watch-call-version-watchface.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/y9-ore-inteligjente-sportive-me-thirrje-2.jpg",
+          "bytes": 74637,
+          "sha256": "2a405a85a5b6d38e3b1b100c34934d5e7684888da245b5187649f92c02f7c6c4",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-y9-smart-sports-watch-call-version-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-magnetike-ca79-ligue",
+      "sourceProductId": 7994,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-magnetike-ca79-ligue/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "700",
+      "regularPrice": 700,
+      "salePrice": 700,
+      "activePrice": 700,
+      "markup": 200,
+      "finalPrice": 900,
+      "imageSelection": [
+        0,
+        5
+      ],
+      "galleryCount": 6,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca79-ligue-1.jpg",
+          "bytes": 59496,
+          "sha256": "d6d462ad4b146e4281f84a3e5511905cb31e3e30fc1bba3a8abab5e750ae7556",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca79-ligue-central-console-magnetic-car-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca79-ligue-2.jpg",
+          "bytes": 107360,
+          "sha256": "fa341559172ba6e7f12fb838e1aa887dc728bc448b7d3750b259a4f7365bd97e",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca79-ligue-central-console-magnetic-car-holder-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-magnetike-ca81",
+      "sourceProductId": 7993,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-magnetike-ca81/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "800",
+      "regularPrice": 800,
+      "salePrice": 800,
+      "activePrice": 800,
+      "markup": 200,
+      "finalPrice": 1000,
+      "imageSelection": [
+        0,
+        5
+      ],
+      "galleryCount": 6,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca81-1.jpg",
+          "bytes": 49918,
+          "sha256": "938578309c702a96de688dacf0997583ca31de0e033658ede1300a991bb53de6",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca81-ligue-air-vent-magnetic-car-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca81-2.jpg",
+          "bytes": 93285,
+          "sha256": "864d0631a429b51e7be3c1089e726918454bbf88fa6eecf68d797e47f7f55d31",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca81-ligue-air-vent-magnetic-car-holder-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-magnetike-ca74",
+      "sourceProductId": 7995,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-magnetike-ca74/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "900",
+      "regularPrice": 900,
+      "salePrice": 900,
+      "activePrice": 900,
+      "markup": 200,
+      "finalPrice": 1100,
+      "imageSelection": [
+        0,
+        4
+      ],
+      "galleryCount": 5,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca74-1.jpg",
+          "bytes": 54267,
+          "sha256": "58199c1682a27d7622ab0079090fbefeaabd9345e322d87101c24f6af3ba153f",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca74-universe-air-outlet-magnetic-car-holder-sheet.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-magnetike-ca74-2.jpg",
+          "bytes": 107558,
+          "sha256": "8b60ef0e1f2c1e8933bd947c9d28f877887fa57869ae1c3a6e9991e0a7c4d51a",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca74-universe-air-outlet-magnetic-car-holder-package-black-silver.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-ventilator-h18",
+      "sourceProductId": 7883,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-ventilator-h18/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "900",
+      "regularPrice": 900,
+      "salePrice": 900,
+      "activePrice": 900,
+      "markup": 200,
+      "finalPrice": 1100,
+      "imageSelection": [
+        0,
+        7
+      ],
+      "galleryCount": 8,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-h18-1.jpg",
+          "bytes": 48898,
+          "sha256": "a19f0672f8ac2265034bd1c29ea9f789a6c594faff43fc09949e6748c62c56dc",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h18-mighty-car-air-outlet-phone-holder-1.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-h18-2.jpg",
+          "bytes": 60678,
+          "sha256": "6f14b3fce6924e75fca1189ee8955c46750c2113bd2051d91f64050d1448a2d3",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h18-mighty-car-air-outlet-phone-holder-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-kroskot-ca83",
+      "sourceProductId": 7992,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-kroskot-ca83/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1200",
+      "regularPrice": 1200,
+      "salePrice": 1200,
+      "activePrice": 1200,
+      "markup": 200,
+      "finalPrice": 1400,
+      "imageSelection": [
+        0,
+        6
+      ],
+      "galleryCount": 7,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-ca83-1.jpg",
+          "bytes": 73795,
+          "sha256": "033acd37b434be8706acfd92698017dc46fa1b301b5284dc9fb013f1e719ecdc",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca83-david-one-button-center-console-car-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-ca83-2.jpg",
+          "bytes": 92026,
+          "sha256": "19fa50b4466d78a52b2e9ddda7d97cbd6ba331f71337ef9dae99f000089a7a2a",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca83-david-one-button-center-console-car-holder-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-ventilator-ca86",
+      "sourceProductId": 7991,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-ventilator-ca86/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1200",
+      "regularPrice": 1200,
+      "salePrice": 1200,
+      "activePrice": 1200,
+      "markup": 200,
+      "finalPrice": 1400,
+      "imageSelection": [
+        0,
+        6
+      ],
+      "galleryCount": 7,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-ca86-1.jpg",
+          "bytes": 77909,
+          "sha256": "352301c189edbf1b7b25f06b9f953612063db4cb1342afed64006be1e128e071",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca86-davy-one-button-air-outlet-car-holder-black.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-ca86-2.jpg",
+          "bytes": 99509,
+          "sha256": "7d466b5b49cf0f09e59080e7fbf585892f6a349d5f116b6d6359dba4e4cb5594",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca86-davy-one-button-air-outlet-car-holder-package.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-ventilator-ca103",
+      "sourceProductId": 7990,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-ventilator-ca103/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1200",
+      "regularPrice": 1200,
+      "salePrice": 1200,
+      "activePrice": 1200,
+      "markup": 200,
+      "finalPrice": 1400,
+      "imageSelection": [
+        0,
+        5
+      ],
+      "galleryCount": 6,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-ca103-1.jpg",
+          "bytes": 81403,
+          "sha256": "5de5cdc01c7a714bd8ca110fcbf4c2db0af7f50e7c33f8752d351c1139b2978c",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca103-air-outlet-gravity-car-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-ventilator-ca103-2.jpg",
+          "bytes": 88126,
+          "sha256": "785ec225df51322b7025e16782825676bbdbdb9703905df9dda01a005dfe782b",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-ca103-air-outlet-gravity-car-holder-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-kroskot-h5",
+      "sourceProductId": 7888,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-kroskot-h5/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1400",
+      "regularPrice": 1900,
+      "salePrice": 1400,
+      "activePrice": 1400,
+      "markup": 200,
+      "finalPrice": 1600,
+      "imageSelection": [
+        0,
+        7
+      ],
+      "galleryCount": 8,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-h5-1.jpg",
+          "bytes": 51356,
+          "sha256": "17de2902b7a7cb1a0915f127bd6aa7291efb9c8aafd63a622d8a1476f38d3dc0",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h5-integrity-car-center-console-holder-suction-cup.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-h5-2.jpg",
+          "bytes": 56763,
+          "sha256": "a1adee8bea48ac1c1292a57079a0c63b237806f86f5cfb732304d430103461df",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h5-integrity-car-center-console-holder-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-xham-h10-general",
+      "sourceProductId": 7885,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-xham-h10-general/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1500",
+      "regularPrice": 1500,
+      "salePrice": 1500,
+      "activePrice": 1500,
+      "markup": 200,
+      "finalPrice": 1700,
+      "imageSelection": [
+        0,
+        6
+      ],
+      "galleryCount": 7,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-xham-h10-general-1.jpg",
+          "bytes": 74751,
+          "sha256": "214f23013cd972a2ed3985d8fb886e3629486df971e2cc7ccef5e04350190318",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h10-general-car-windshield-phone-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-xham-h10-general-2.jpg",
+          "bytes": 73634,
+          "sha256": "7915fd2ab49d35234f4a6c4e1c421a7ee6da7bc27c2b2b7b5dd9bfcf63fc8912",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h10-general-car-windshield-phone-holder-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    },
+    {
+      "id": "hoco-al-mbajtese-celulari-per-makine-ne-kroskot-h15-fair",
+      "sourceProductId": 7884,
+      "url": "https://hoco.al/product/mbajtese-celulari-per-makine-ne-kroskot-h15-fair/",
+      "category": "holders",
+      "currency": "ALL",
+      "minorUnit": 0,
+      "rawActivePrice": "1600",
+      "regularPrice": 1600,
+      "salePrice": 1600,
+      "activePrice": 1600,
+      "markup": 200,
+      "finalPrice": 1800,
+      "imageSelection": [
+        0,
+        7
+      ],
+      "galleryCount": 8,
+      "images": [
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-h15-fair-1.jpg",
+          "bytes": 68222,
+          "sha256": "d27623df7e555431007003d4d982cfbc7f4986775f0f749cc19402314ed9743b",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h15-fair-car-center-console-phone-holder.jpg"
+        },
+        {
+          "path": "assets/products/hoco-al/mbajtese-celulari-per-makine-ne-kroskot-h15-fair-2.jpg",
+          "bytes": 56155,
+          "sha256": "d31a5d5824a0a1f4d8acd006690780548c7ef845b1a58f3c8e98e4f9378b1551",
+          "source": "https://hoco.al/wp-content/uploads/2025/03/hoco-h15-fair-car-center-console-phone-holder-packaging.jpg"
+        }
+      ],
+      "fotoPaketimi": true,
+      "notes": []
+    }
+  ]
+}

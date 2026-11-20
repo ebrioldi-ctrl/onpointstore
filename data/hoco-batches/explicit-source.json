@@ -1,0 +1,761 @@
+[
+  {
+    "id": "hoco-al-kabllo-karikimi-per-iphone-x102-fresh",
+    "sourceProductId": 6992,
+    "sku": "CA0024",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-iphone-x102-fresh/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 400,
+    "salePrice": 400,
+    "regularPrice": 400,
+    "addedAmount": 200,
+    "finalPrice": 600,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-flexible.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-joint.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-charge.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-overview.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-connectors.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-x102-fresh-1.jpg",
+        "bytes": 44995,
+        "sha256": "0c2cce829a680eeaf2761839da6620bf59bbfa078d22547ca1358cbc0b85bf77"
+      },
+      {
+        "galleryIndex": 7,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-ltn-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-x102-fresh-2.jpg",
+        "bytes": 82353,
+        "sha256": "a5bec340156adbc615bf97ff01be02d38a3c60a2383d3b32bf0e241144683f17"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-per-iphone-x89-wind",
+    "sourceProductId": 7125,
+    "sku": "CA0037",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-iphone-x89-wind/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 300,
+    "salePrice": 300,
+    "regularPrice": 300,
+    "addedAmount": 200,
+    "finalPrice": 500,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-joint.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-colors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-charging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-x89-wind-1.jpg",
+        "bytes": 62662,
+        "sha256": "3f9c930a514d9ae0ac209c3355dc9f356e6c2be4431f741228f20bb719d67207"
+      },
+      {
+        "galleryIndex": 7,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-pd-charging-data-cable-tc-ltn-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-x89-wind-2.jpg",
+        "bytes": 81400,
+        "sha256": "8f6b2215b62cfd49a6a4f1af8960d5ba7d59d93f88c6f28a13578d3c1c867f3d"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": [
+      "Atributi Usage thotë USB-A → Lightning, por galeria dhe paketimi tregojnë USB-C → Lightning. Atributi kundërthënës u la jashtë; nuk u shtua fuqi karikimi që nuk është e qartë në burim."
+    ]
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-per-micro-usb-x87-magic-silicone",
+    "sourceProductId": 6785,
+    "sku": "CA0007",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-micro-usb-x87-magic-silicone/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 500,
+    "salePrice": 500,
+    "regularPrice": 500,
+    "addedAmount": 200,
+    "finalPrice": 700,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-colors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-overview.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-packaging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-packaging-white.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-connectors.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-micro-usb-x87-magic-silicone-1.jpg",
+        "bytes": 21947,
+        "sha256": "da636295dc7f55db4c8c5d8103fb07a80dec12d1c77d999017d49918c886e73d"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x87-magic-silicone-charging-data-cable-usb-musb-packaging-white.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-micro-usb-x87-magic-silicone-2.jpg",
+        "bytes": 59785,
+        "sha256": "e21450f645374817fc95e86a5396ad6c182c6a3e8fe3a165376aa67d43d33280"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-usb-a-to-micro-usb-1m-x20-flash",
+    "sourceProductId": 7555,
+    "sku": "CA0077",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-usb-a-to-micro-usb-1m-x20-flash/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 400,
+    "salePrice": 400,
+    "regularPrice": 400,
+    "addedAmount": 200,
+    "finalPrice": 600,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/41RdRG7AAbL._SX522_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/41BkjWLBRUL._SX522_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/513y4iKye5L._SX522_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/51kahKo1LL._SX522_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/61ixaOei5pL._SL1200_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/71d-epTyeiL._SX522_.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/41RdRG7AAbL._SX522_.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-usb-a-to-micro-usb-1m-x20-flash-1.jpg",
+        "bytes": 7818,
+        "sha256": "0c36a12b117aff8172a235cf29d13759d53a0860fab4eba82ad5899e066a7907"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/71d-epTyeiL._SX522_.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-usb-a-to-micro-usb-1m-x20-flash-2.jpg",
+        "bytes": 66663,
+        "sha256": "277358f46852f9d3c0fb63ce694478f2f1fdedb3e331773e09f12f9bcd74c5da"
+      }
+    ],
+    "packagingVerified": false,
+    "notes": [
+      "Galeria e burimit nuk përmban foto paketimi; u ruajt fotoja e fundit si foto e dytë. Galeria e plotë u inspektua vizualisht."
+    ]
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-usb-a-to-micro-usb-x1-rapid",
+    "sourceProductId": 7632,
+    "sku": "CA0087",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-usb-a-to-micro-usb-x1-rapid/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 400,
+    "salePrice": 400,
+    "regularPrice": 400,
+    "addedAmount": 200,
+    "finalPrice": 600,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x1-rapid-micro-usb-usb-data-cable-white-1m-1-medium-for-categories.webp",
+      "https://hoco.al/wp-content/uploads/2025/03/51TvTCJDvkL._AC_SX679_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/41Xw9eGPzcL._AC_SX679_.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/81S2oDALP8L._AC_SX679_.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x1-rapid-micro-usb-usb-data-cable-white-1m-1-medium-for-categories.webp",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-usb-a-to-micro-usb-x1-rapid-1.webp",
+        "bytes": 2480,
+        "sha256": "8eff1f1248572a64d3c7ad371946ac0f98f90b7f6159e4b06724d811eb11703b"
+      },
+      {
+        "galleryIndex": 3,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/81S2oDALP8L._AC_SX679_.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-usb-a-to-micro-usb-x1-rapid-2.jpg",
+        "bytes": 89886,
+        "sha256": "9185aaec321648c82cfe0733864ccdfbccd66054743f6475b43cc446aa023b8b"
+      }
+    ],
+    "packagingVerified": false,
+    "notes": [
+      "Galeria e burimit nuk përmban foto paketimi; u ruajt fotoja e fundit si foto e dytë. Galeria e plotë u inspektua vizualisht."
+    ]
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-per-type-c-x90-cool-silicone",
+    "sourceProductId": 6782,
+    "sku": "CA0005",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-type-c-x90-cool-silicone/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 500,
+    "salePrice": 500,
+    "regularPrice": 500,
+    "addedAmount": 200,
+    "finalPrice": 700,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-colors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-charging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-type-c-x90-cool-silicone-1.jpg",
+        "bytes": 41928,
+        "sha256": "5269d6730b91de79314cc56baf95e91abc3908402512479ebaba5534354cf190"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-silicone-charging-data-cable-usb-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-type-c-x90-cool-silicone-2.jpg",
+        "bytes": 101572,
+        "sha256": "85a39971de48d8e7408f3baeaa3ba4f0037b5722c2bb263b35214cac9957779b"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": [
+      "Varianti është USB-A → USB-C dhe paketimi thotë 3A, ndërsa atributi Power dhe përshkrimi pretendojnë PD 60W. Pretendimi 60W u la jashtë për këtë variant për shkak të mospërputhjes."
+    ]
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-type-c-x102-fresh",
+    "sourceProductId": 6994,
+    "sku": "CA0026",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-type-c-x102-fresh/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 400,
+    "salePrice": 400,
+    "regularPrice": 400,
+    "addedAmount": 200,
+    "finalPrice": 600,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-tails.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-flexible.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-charge.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-overview.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-tails.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-x102-fresh-1.jpg",
+        "bytes": 44301,
+        "sha256": "8b041990124967eb4637e0c23bfa542fe2e9f57c65892d4087c25fc749bbdf5b"
+      },
+      {
+        "galleryIndex": 7,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x102-fresh-charging-data-cable-usb-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-x102-fresh-2.jpg",
+        "bytes": 82230,
+        "sha256": "5c89a71deb1b5e41401a7e4bd23580ae57ac9569fcbbf87c9b13689ce299922e"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-per-iphone-fast-charge-x73",
+    "sourceProductId": 7250,
+    "sku": "CA0048",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-iphone-fast-charge-x73/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 500,
+    "salePrice": 500,
+    "regularPrice": 500,
+    "addedAmount": 200,
+    "finalPrice": 700,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-charge.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-connectors.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-fast-charge-x73-1.jpg",
+        "bytes": 31727,
+        "sha256": "358d973fa06e9a2367af3e29e050dc1bdf4bf0496a90fb0668883415d4344140"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x73-pd-charging-data-cable-tc-to-ltn-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-fast-charge-x73-2.jpg",
+        "bytes": 76244,
+        "sha256": "766cd52269a664d2dfbcbadc8c1293e2bac9bb8581c86902021de1b09d2f9881"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-per-iphone-pd-x86-spear",
+    "sourceProductId": 6791,
+    "sku": "CA0009",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-per-iphone-pd-x86-spear/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 700,
+    "salePrice": 700,
+    "regularPrice": 700,
+    "addedAmount": 200,
+    "finalPrice": 900,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-flexible.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-connector.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-charging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-pd-x86-spear-1.jpg",
+        "bytes": 43024,
+        "sha256": "cdd83f0009ea1ee70f851c2e8fad79f4c26cf04e43f718a39c7cb45752479310"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x86-spear-pd-silicone-charging-data-cable-tc-to-ltn-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-per-iphone-pd-x86-spear-2.jpg",
+        "bytes": 141023,
+        "sha256": "e71c6176a46f07a9ca198031e44a0ff37d72fb89bf0b2175744e2a310200a597"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-type-c-fast-charging-60w-x89-wind",
+    "sourceProductId": 7122,
+    "sku": "CA0036",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-type-c-fast-charging-60w-x89-wind/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 600,
+    "salePrice": 600,
+    "regularPrice": 600,
+    "addedAmount": 200,
+    "finalPrice": 800,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-connectors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-joint.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-colors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-charging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-fast-charging-60w-x89-wind-1.jpg",
+        "bytes": 44690,
+        "sha256": "fcf890aa74195f5ddd9a2220f0df008e293ede6fcf9783a6524e2bd56f1ebbfe"
+      },
+      {
+        "galleryIndex": 7,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x89-wind-60w-charging-data-cable-tc-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-fast-charging-60w-x89-wind-2.jpg",
+        "bytes": 83314,
+        "sha256": "255ecc350ff1845496dd905aec94fbf295088f60401e5dffc8ec32534b49d3dd"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-kabllo-karikimi-type-c-pd-60w-x90-cool",
+    "sourceProductId": 6768,
+    "sku": "CA0002",
+    "sourceUrl": "https://hoco.al/product/kabllo-karikimi-type-c-pd-60w-x90-cool/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 600,
+    "salePrice": 600,
+    "regularPrice": 600,
+    "addedAmount": 200,
+    "finalPrice": 800,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-wire.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-colors.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-charging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-packaging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-interior.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-wire.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-pd-60w-x90-cool-1.jpg",
+        "bytes": 47024,
+        "sha256": "b6b410c4264418ed8dbd22ac90bf0163189a88a218571b9b0d9c33b7af63e3ef"
+      },
+      {
+        "galleryIndex": 3,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-x90-cool-60w-silicone-charging-data-cable-tc-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/kabllo-karikimi-type-c-pd-60w-x90-cool-2.jpg",
+        "bytes": 104760,
+        "sha256": "496b60f56e7b6a3c73a7738c39ee6fdbf9ac51bd4c60552a94b71b27a66be589"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": [
+      "Last gallery image is not packaging; selected last packaging image in the same gallery."
+    ]
+  },
+  {
+    "id": "hoco-al-boks-me-bluetooth-bs45-deep-sound-sports",
+    "sourceProductId": 8765,
+    "sku": "SP0012",
+    "sourceUrl": "https://hoco.al/product/boks-me-bluetooth-bs45-deep-sound-sports/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 1800,
+    "salePrice": 1800,
+    "regularPrice": 1800,
+    "addedAmount": 200,
+    "finalPrice": 2000,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-top.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-buttons.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-interior-red.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-packages.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-bs45-deep-sound-sports-1.jpg",
+        "bytes": 119745,
+        "sha256": "014e10269e30d283e0f4f5597d800eef59de8a0a1a79aec8224cf5d69c1595fd"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs45-deep-sound-sports-bt-speaker-packages.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-bs45-deep-sound-sports-2.jpg",
+        "bytes": 109697,
+        "sha256": "8ce3fbfe40f085fb135e15429bf099c0aff471ee928de67e1df8108b4c4a4958"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-boks-me-bluetooth-bs49-dazzling-sound-desktop",
+    "sourceProductId": 8706,
+    "sku": "SP0010",
+    "sourceUrl": "https://hoco.al/product/boks-me-bluetooth-bs49-dazzling-sound-desktop/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 4000,
+    "salePrice": 4000,
+    "regularPrice": 4000,
+    "addedAmount": 200,
+    "finalPrice": 4200,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-ports.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-buttons.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-interior-black.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-interior-metal-grey.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-bs49-dazzling-sound-desktop-1.jpg",
+        "bytes": 68135,
+        "sha256": "c11ee77da83004d854d058303485edbc3406120fdb02d5c00cdb782de510de25"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs49-dazzling-sound-desktop-wireless-speaker-packaging.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-bs49-dazzling-sound-desktop-2.jpg",
+        "bytes": 88000,
+        "sha256": "ccb3e2a5b6bfe6cbb1438f44ca9e046b5297ae478f62f608340e1327d298a5f6"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-boks-me-bluetooth-me-mikrofon-bs46-mature-outdoor",
+    "sourceProductId": 8764,
+    "sku": "SP0011",
+    "sourceUrl": "https://hoco.al/product/boks-me-bluetooth-me-mikrofon-bs46-mature-outdoor/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 6000,
+    "salePrice": 6000,
+    "regularPrice": 6000,
+    "addedAmount": 200,
+    "finalPrice": 6200,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-black.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-control-panel.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-colored-lights.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-portable.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-disco.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-package.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-black.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-me-mikrofon-bs46-mature-outdoor-1.jpg",
+        "bytes": 73849,
+        "sha256": "b1147626f98af0cdbd58ac4e7dc5014343e8b851b62ccfeaaac8c08cbb6dc7eb"
+      },
+      {
+        "galleryIndex": 6,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-bs46-mature-outdoor-bt-speaker-package.jpg",
+        "localPath": "assets/products/hoco-al/boks-me-bluetooth-me-mikrofon-bs46-mature-outdoor-2.jpg",
+        "bytes": 106012,
+        "sha256": "0587750a20d842af33bf45aae006abdc2336521c13fea190fec54011b011c828"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-adaptor-makine-dual-port-z27-staunch",
+    "sourceProductId": 8197,
+    "sku": "VH0014",
+    "sourceUrl": "https://hoco.al/product/adaptor-makine-dual-port-z27-staunch/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 1000,
+    "salePrice": 1000,
+    "regularPrice": 1000,
+    "addedAmount": 200,
+    "finalPrice": 1200,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-mini.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-shell.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-adapter.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-portable.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-vehicle.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-package.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-mini.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-dual-port-z27-staunch-1.jpg",
+        "bytes": 30259,
+        "sha256": "d8bfaa47042e8d21dc29da49f6d04ba2eaebd1eb32d0170810fe8b95eef82d89"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z27-staunch-dual-port-in-car-charger-package.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-dual-port-z27-staunch-2.jpg",
+        "bytes": 88103,
+        "sha256": "aa04ce2f97a0b65834e4f9b1dce43588e8ed792fe812b26158a3bb0eb55bff3a"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-adaptor-makine-fast-charge-z47-transparent",
+    "sourceProductId": 8124,
+    "sku": "VH0007",
+    "sourceUrl": "https://hoco.al/product/adaptor-makine-fast-charge-z47-transparent/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 1500,
+    "salePrice": 1500,
+    "regularPrice": 2000,
+    "addedAmount": 200,
+    "finalPrice": 1700,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-tc.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-tc-cable.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-musb-overview.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-tc-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-tc-packaging.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-fast-charge-z47-transparent-1.jpg",
+        "bytes": 73013,
+        "sha256": "eb5cad5dfcee83eb7d02e1a2ec761c4c586c43d666b6c416b9a027e06550631b"
+      },
+      {
+        "galleryIndex": 5,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z47-transparent-discovery-edition-dual-port-qc3-car-charger-set-usba-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-fast-charge-z47-transparent-2.jpg",
+        "bytes": 143806,
+        "sha256": "78c27f1e1a39ed8de4182c8972ac29d276265708997fa4a33bfccfe9e9eced73"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": []
+  },
+  {
+    "id": "hoco-al-adaptor-makine-fast-charge-z47a-transparent",
+    "sourceProductId": 8127,
+    "sku": "VH0008",
+    "sourceUrl": "https://hoco.al/product/adaptor-makine-fast-charge-z47a-transparent/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 2000,
+    "salePrice": 2000,
+    "regularPrice": 2000,
+    "addedAmount": 200,
+    "finalPrice": 2200,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-tc-packaging.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-tc.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-ltn-interior.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-ltn-cable.jpg",
+      "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-tc-overview.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-fast-charge-z47a-transparent-1.jpg",
+        "bytes": 77226,
+        "sha256": "b98a37398521a101f772ce522cdc852514a504cf28d35eea4dc9380026ed911c"
+      },
+      {
+        "galleryIndex": 1,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2025/03/hoco-z47a-transparent-discovery-edition-pd30w-qc3-car-charger-set-tc-tc-packaging.jpg",
+        "localPath": "assets/products/hoco-al/adaptor-makine-fast-charge-z47a-transparent-2.jpg",
+        "bytes": 150512,
+        "sha256": "8cacbc853d51775d1a4171e9df3f35431c0594f4ea004c5822232faaea2e6a17"
+      }
+    ],
+    "packagingVerified": true,
+    "notes": [
+      "Last gallery image is not packaging; selected last packaging image in the same gallery."
+    ]
+  },
+  {
+    "id": "hoco-al-hoco-zp18-kompresor-ajri-portativ-me-ekran-digjital",
+    "sourceProductId": 14714,
+    "sku": "",
+    "sourceUrl": "https://hoco.al/product/hoco-zp18-kompresor-ajri-portativ-me-ekran-digjital/",
+    "checkedOn": "2026-11-19",
+    "sourceCurrency": "ALL",
+    "sourceMinorUnit": 0,
+    "sourcePrice": 5500,
+    "salePrice": 5500,
+    "regularPrice": 5500,
+    "addedAmount": 200,
+    "finalPrice": 5700,
+    "sourceInStock": true,
+    "gallery": [
+      "https://hoco.al/wp-content/uploads/2026/09/b4ee9b23b1484fb08ed46d74437c9124.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/1e770082849248bd875eff72955a46cd.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/9f9b47a688824d9ea0ab78af085d8632.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/28dbd6a85c42446fabc75da7e795af68.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/466d0f7755b84df792221f5219b461b9.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/807f33a7e6a0466288aab623c3b36966.jpg",
+      "https://hoco.al/wp-content/uploads/2026/09/55564d3e5785499fbc8ead2a3fbf6065.jpg"
+    ],
+    "selectedImages": [
+      {
+        "galleryIndex": 0,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2026/09/b4ee9b23b1484fb08ed46d74437c9124.jpg",
+        "localPath": "assets/products/hoco-al/hoco-zp18-kompresor-ajri-portativ-me-ekran-digjital-1.jpg",
+        "bytes": 126594,
+        "sha256": "b804213451dbb59f23613d9b65b8cfc71d0fadfc947f0aa3593c08eb63dbdba3"
+      },
+      {
+        "galleryIndex": 6,
+        "remoteUrl": "https://hoco.al/wp-content/uploads/2026/09/55564d3e5785499fbc8ead2a3fbf6065.jpg",
+        "localPath": "assets/products/hoco-al/hoco-zp18-kompresor-ajri-portativ-me-ekran-digjital-2.jpg",
+        "bytes": 144246,
+        "sha256": "21eb25c18ff31811f93afb7fd17f4df58eab807cd028479c934d97aaed8bd95a"
+      }
+    ],
+    "packagingVerified": false,
+    "notes": [
+      "Galeria e burimit nuk përmban foto paketimi; u ruajt fotoja e fundit si foto e dytë. Galeria e plotë u inspektua vizualisht."
+    ]
+  }
+]

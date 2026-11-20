@@ -1,0 +1,958 @@
+{
+  "checkedOn": "2026-11-19",
+  "listings": [
+    {
+      "url": "https://hoco.al/shop/?product_cat=adaptors&filter=1",
+      "productsFound": 21,
+      "pages": 2,
+      "firstPageIds": [
+        7639,
+        7638,
+        7637,
+        7634,
+        7636,
+        7633,
+        7635,
+        14614,
+        14693,
+        14746,
+        14723,
+        8210,
+        8221,
+        8218,
+        8214,
+        8207
+      ],
+      "secondPageIds": [
+        8201,
+        8199,
+        8211,
+        8204,
+        8200
+      ]
+    },
+    {
+      "url": "https://hoco.al/shop/?product_cat=maus&filter=1",
+      "productsFound": 4,
+      "includedActualMice": 3,
+      "excluded": [
+        {
+          "sourceId": 14561,
+          "name": "Hoco GA1 Phoenix Wireless Game Controller",
+          "reason": "Game controller, not one of the three requested mice."
+        }
+      ]
+    }
+  ],
+  "api": "https://hoco.al/wp-json/wc/store/v1/products",
+  "apiCategory128Total": 85,
+  "apiRecordsNotInVisibleAdaptorsListing": 64,
+  "pricingRule": "Active ALL price divided by 10^currency_minor_unit, then +200 LEK.",
+  "scopeRule": "Exact visible linked category listings; API-only hidden or unlisted records excluded.",
+  "records": [
+    {
+      "localId": "hoco-al-adaptor-audio-type-c-2-ne-1-ls19",
+      "sourceId": 7639,
+      "sourceName": "Adaptor Audio Type-C 2 në 1 LS19",
+      "sourceUrl": "https://hoco.al/product/adaptor-audio-type-c-2-ne-1-ls19/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "1000",
+        "regular_price": "1200",
+        "sale_price": "1000",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1200,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 3,
+      "chosenGalleryIndices": [
+        0,
+        2
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/ls19-type-c-2-in-1-audio-converter-main.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/ls19-type-c-2-in-1-audio-converter-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-audio-type-c-2-ne-1-ls19-1.jpg",
+        "assets/products/hoco-al/adaptor-audio-type-c-2-ne-1-ls19-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-adaptor-audio-type-c-to-3-5mm-ls35",
+      "sourceId": 7638,
+      "sourceName": "Adaptor Audio Type-C to 3.5mm LS35",
+      "sourceUrl": "https://hoco.al/product/adaptor-audio-type-c-to-3-5mm-ls35/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 1,
+      "chosenGalleryIndices": [
+        0
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/2-28.webp"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-audio-type-c-to-3-5mm-ls35-1.webp"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "Only one product gallery image; no packaging available.",
+        "Product description embeds a further image on novatech.al; host lookup failed with ENOTFOUND. No unverified packaging substituted."
+      ]
+    },
+    {
+      "localId": "hoco-al-adaptor-audio-type-c-to-3-5mm-ls36-fresh",
+      "sourceId": 7637,
+      "sourceName": "Adaptor Audio Type-C to 3.5mm LS36 Fresh",
+      "sourceUrl": "https://hoco.al/product/adaptor-audio-type-c-to-3-5mm-ls36-fresh/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 8,
+      "chosenGalleryIndices": [
+        0,
+        7
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ls36-fresh-digital-audio-converter-tc-to-3-5mm.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ls36-fresh-digital-audio-converter-tc-to-3-5mm-packaging.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-audio-type-c-to-3-5mm-ls36-fresh-1.jpg",
+        "assets/products/hoco-al/adaptor-audio-type-c-to-3-5mm-ls36-fresh-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-adaptor-bluetooth-usb-ua18",
+      "sourceId": 7634,
+      "sourceName": "Adaptor Bluetooth USB UA18",
+      "sourceUrl": "https://hoco.al/product/adaptor-bluetooth-usb-ua18/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "700",
+        "regular_price": "700",
+        "sale_price": "700",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 900,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua18-usb-bt-adapter.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua18-usb-bt-adapter-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-bluetooth-usb-ua18-1.jpg",
+        "assets/products/hoco-al/adaptor-bluetooth-usb-ua18-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": [
+        "Omitted irrelevant source attribute Resolution: 4K for this Bluetooth USB dongle."
+      ]
+    },
+    {
+      "localId": "hoco-al-adaptor-type-c-male-to-usb-a-female-ua17",
+      "sourceId": 7636,
+      "sourceName": "Adaptor Type-C Male to USB-A Female UA17",
+      "sourceUrl": "https://hoco.al/product/adaptor-type-c-male-to-usb-a-female-ua17/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua17-type-c-male-to-usb-female-usb3-adapter.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua17-type-c-male-to-usb-female-usb3-adapter-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-type-c-male-to-usb-a-female-ua17-1.jpg",
+        "assets/products/hoco-al/adaptor-type-c-male-to-usb-a-female-ua17-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-adaptor-type-c-to-hdmi-ua19-easy-flow",
+      "sourceId": 7633,
+      "sourceName": "Adaptor Type-C to HDMI UA19 Easy flow",
+      "sourceUrl": "https://hoco.al/product/adaptor-type-c-to-hdmi-ua19-easy-flow/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "2000",
+        "regular_price": "2000",
+        "sale_price": "2000",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 2200,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 7,
+      "chosenGalleryIndices": [
+        0,
+        6
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua19-easy-flow-tc-to-hdmi-adapter-metal-gray.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua19-easy-flow-tc-to-hdmi-adapter-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-type-c-to-hdmi-ua19-easy-flow-1.jpg",
+        "assets/products/hoco-al/adaptor-type-c-to-hdmi-ua19-easy-flow-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-adaptor-usb-a-male-to-type-c-female-ua17",
+      "sourceId": 7635,
+      "sourceName": "Adaptor USB-A Male to Type-C Female UA17",
+      "sourceUrl": "https://hoco.al/product/adaptor-usb-a-male-to-type-c-female-ua17/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua17-usb-male-to-type-c-female-usb2-adapter.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-ua17-usb-male-to-type-c-female-usb2-adapter-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/adaptor-usb-a-male-to-type-c-female-ua17-1.jpg",
+        "assets/products/hoco-al/adaptor-usb-a-male-to-type-c-female-ua17-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-hoco-hi35-wifi-4-repeater-300mbps",
+      "sourceId": 14614,
+      "sourceName": "HOCO HI35 WiFi 4 Repeater 300Mbps",
+      "sourceUrl": "https://hoco.al/product/hoco-hi35-wifi-4-repeater-300mbps/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "2500",
+        "regular_price": "2500",
+        "sale_price": "2500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 2700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2026/06/EDA008502401A.jpg",
+        "https://hoco.al/wp-content/uploads/2026/06/EDA008502401A_5.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/hoco-hi35-wifi-4-repeater-300mbps-1.jpg",
+        "assets/products/hoco-al/hoco-hi35-wifi-4-repeater-300mbps-2.jpg"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "All gallery images visually inspected; none shows packaging. Second photo is the source gallery last image."
+      ]
+    },
+    {
+      "localId": "hoco-al-hoco-hi37-adapter-usb-wi-fi-4-me-antene-te-jashtme-pershkrimi",
+      "sourceId": 14693,
+      "sourceName": "HOCO HI37 Adapter USB Wi-Fi 4 me Antenë të Jashtme  Përshkrimi",
+      "sourceUrl": "https://hoco.al/product/hoco-hi37-adapter-usb-wi-fi-4-me-antene-te-jashtme-pershkrimi/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "1500",
+        "regular_price": "1500",
+        "sale_price": "1500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2026/09/eb63cbff-0d8f-11f1-83b2-32de4b37c187.jpg",
+        "https://hoco.al/wp-content/uploads/2026/09/eb63cc04-0d8f-11f1-83b2-32de4b37c187.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/hoco-hi37-adapter-usb-wi-fi-4-me-antene-te-jashtme-pershkrimi-1.jpg",
+        "assets/products/hoco-al/hoco-hi37-adapter-usb-wi-fi-4-me-antene-te-jashtme-pershkrimi-2.jpg"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "All gallery images visually inspected; none shows packaging. Second photo is the source gallery last image."
+      ]
+    },
+    {
+      "localId": "hoco-al-hoco-k101-prestigio-tripod-multifunksional-95-cm-me-bluetooth-remote",
+      "sourceId": 14746,
+      "sourceName": "HOCO K101 Prestigio Tripod Multifunksional 95 cm me Bluetooth Remote",
+      "sourceUrl": "https://hoco.al/product/hoco-k101-prestigio-tripod-multifunksional-95-cm-me-bluetooth-remote/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "2500",
+        "regular_price": "2500",
+        "sale_price": "2500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 2700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 3,
+      "chosenGalleryIndices": [
+        0,
+        2
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2026/09/f363dc88-29f7-11f1-83b3-32de4b37c187.jpg",
+        "https://hoco.al/wp-content/uploads/2026/09/hoco-k101-prestigio-support-smartphone-orientable.webp"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/hoco-k101-prestigio-tripod-multifunksional-95-cm-me-bluetooth-remote-1.jpg",
+        "assets/products/hoco-al/hoco-k101-prestigio-tripod-multifunksional-95-cm-me-bluetooth-remote-2.webp"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "All gallery images visually inspected; none shows packaging. Second photo is the source gallery last image."
+      ]
+    },
+    {
+      "localId": "hoco-al-hoco-k22-handy-tripod-selfie-stick-1-75-m-me-bluetooth-remote",
+      "sourceId": 14723,
+      "sourceName": "HOCO K22 Handy Tripod & Selfie Stick 1.75 m me Bluetooth Remote",
+      "sourceUrl": "https://hoco.al/product/hoco-k22-handy-tripod-selfie-stick-1-75-m-me-bluetooth-remote/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "4000",
+        "regular_price": "4000",
+        "sale_price": "4000",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 4200,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 7,
+      "chosenGalleryIndices": [
+        0,
+        6
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2026/09/hoco-k22-handy-anti-shake-live-broadcast-holder.jpg",
+        "https://hoco.al/wp-content/uploads/2026/09/hoco-k22-handy-anti-shake-live-broadcast-holder-selfie.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/hoco-k22-handy-tripod-selfie-stick-1-75-m-me-bluetooth-remote-1.jpg",
+        "assets/products/hoco-al/hoco-k22-handy-tripod-selfie-stick-1-75-m-me-bluetooth-remote-2.jpg"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "All gallery images visually inspected; none shows packaging. Second photo is the source gallery last image."
+      ]
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-aux-female-upa20",
+      "sourceId": 8210,
+      "sourceName": "Kabllo Adaptor AUX To AUX (Female) UPA20",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-aux-female-upa20/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 7,
+      "chosenGalleryIndices": [
+        0,
+        6
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/Hoco-UPA20-11-1100x1100-1.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa20-3-5mm-audio-extension-cable-male-to-female-package-1m.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-female-upa20-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-female-upa20-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-aux-upa11",
+      "sourceId": 8221,
+      "sourceName": "Kabllo Adaptor AUX To AUX UPA11",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-aux-upa11/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "400",
+        "regular_price": "400",
+        "sale_price": "400",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 600,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/upa11-aux-audio-cable-rounded.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/upa11-aux-audio-cable-package.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa11-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa11-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-aux-upa14",
+      "sourceId": 8218,
+      "sourceName": "Kabllo Adaptor AUX To AUX UPA14",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-aux-upa14/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa14-aux-audio-cable-jack.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa14-aux-audio-cable-package-2m.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa14-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa14-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": [
+        "Source Length attribute says 100 cm while gallery/package filename refers to 2 m; length omitted from local specifications."
+      ]
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-aux-upa16",
+      "sourceId": 8214,
+      "sourceName": "Kabllo Adaptor AUX To AUX UPA16",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-aux-upa16/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "500",
+        "regular_price": "500",
+        "sale_price": "500",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 700,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa16-aux-audio-cable-connectors.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa16-aux-audio-cable-2m-packages.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa16-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa16-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": [
+        "Source Length attribute says 100 cm while gallery/package filename refers to 2 m; length omitted from local specifications."
+      ]
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-aux-upa24",
+      "sourceId": 8207,
+      "sourceName": "Kabllo Adaptor AUX To AUX UPA24",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-aux-upa24/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "300",
+        "regular_price": "300",
+        "sale_price": "300",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 500,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 8,
+      "chosenGalleryIndices": [
+        0,
+        7
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/4-23.jpg.webp",
+        "https://hoco.al/wp-content/uploads/2025/03/11-17.jpg.webp"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa24-1.webp",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-aux-upa24-2.webp"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-iphone-upa25-transparent",
+      "sourceId": 8201,
+      "sourceName": "Kabllo Adaptor AUX To iPhone UPA25 Transparent",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-iphone-upa25-transparent/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "900",
+        "regular_price": "900",
+        "sale_price": "900",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1100,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/51m1dEn5d3L.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/EDA004309101_B4_b4bdbc0f-b41f-46ef-8529-86712ee7ddea.webp"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-iphone-upa25-transparent-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-iphone-upa25-transparent-2.webp"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-iphone-upa26-fresh",
+      "sourceId": 8199,
+      "sourceName": "Kabllo Adaptor AUX To iPhone UPA26 Fresh",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-iphone-upa26-fresh/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "1000",
+        "regular_price": "1200",
+        "sale_price": "1000",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1200,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 3,
+      "chosenGalleryIndices": [
+        0,
+        2
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/1702091854642_3_e72d2e2c_0fca_4794_b05c_1ca27125046c_1024x__67888.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/fiqudu1ojz503bld1td9w4vgutgwvexx.webp"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-iphone-upa26-fresh-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-iphone-upa26-fresh-2.webp"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-usb-c-upa19",
+      "sourceId": 8211,
+      "sourceName": "Kabllo Adaptor AUX To USB-C UPA19",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-usb-c-upa19/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "800",
+        "regular_price": "800",
+        "sale_price": "800",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1000,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa19-digital-audio-conversion-cable-for-type-c.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-upa19-digital-audio-conversion-cable-for-type-c-packages.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa19-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa19-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-usb-c-upa25-transparent",
+      "sourceId": 8204,
+      "sourceName": "Kabllo Adaptor AUX To USB-C UPA25 Transparent",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-usb-c-upa25-transparent/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "900",
+        "regular_price": "900",
+        "sale_price": "900",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1100,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 4,
+      "chosenGalleryIndices": [
+        0,
+        3
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/Hoco-UPA25-USB-C-to-AUX-3_5mm-durable-Audio-Cable-Black-Cable-hoco-3.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/Hoco-UPA25-C-1-1100x1100-1.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa25-transparent-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa25-transparent-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-kabllo-adaptor-aux-to-usb-c-upa26-fresh",
+      "sourceId": 8200,
+      "sourceName": "Kabllo Adaptor AUX To USB-C UPA26 Fresh",
+      "sourceUrl": "https://hoco.al/product/kabllo-adaptor-aux-to-usb-c-upa26-fresh/",
+      "sourceCategory": "adaptors",
+      "sourcePrice": {
+        "price": "800",
+        "regular_price": "800",
+        "sale_price": "800",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1000,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 8,
+      "chosenGalleryIndices": [
+        0,
+        7
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/51E5FM012ZL._AC_SX679_.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/51CbnERpddL._AC_.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa26-fresh-1.jpg",
+        "assets/products/hoco-al/kabllo-adaptor-aux-to-usb-c-upa26-fresh-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-gm14-maus-wireless-2-4g-platinum",
+      "sourceId": 11430,
+      "sourceName": "GM14 Maus wireless 2.4G Platinum",
+      "sourceUrl": "https://hoco.al/product/gm14-maus-wireless-2-4g-platinum/",
+      "sourceCategory": "maus",
+      "sourcePrice": {
+        "price": "1400",
+        "regular_price": "1400",
+        "sale_price": "1400",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1600,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-gm14-platinum-2-4g-business-wireless-mouse-scroll.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/hoco-gm14-platinum-2-4g-business-wireless-mouse-packages.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/gm14-maus-wireless-2-4g-platinum-1.jpg",
+        "assets/products/hoco-al/gm14-maus-wireless-2-4g-platinum-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    },
+    {
+      "localId": "hoco-al-gm21-maus-biznesi-wireless-2-4g-platinum",
+      "sourceId": 11429,
+      "sourceName": "GM21 Maus biznesi wireless 2.4G Platinum",
+      "sourceUrl": "https://hoco.al/product/gm21-maus-biznesi-wireless-2-4g-platinum/",
+      "sourceCategory": "maus",
+      "sourcePrice": {
+        "price": "1400",
+        "regular_price": "1400",
+        "sale_price": "1400",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1600,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 6,
+      "chosenGalleryIndices": [
+        0,
+        5
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/ff429510ed9bb7fdac488ffd12f62b45_611x611.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/cdfa7ab8d67f82032a5e3a0e8a64cfc4_611x611.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/gm21-maus-biznesi-wireless-2-4g-platinum-1.jpg",
+        "assets/products/hoco-al/gm21-maus-biznesi-wireless-2-4g-platinum-2.jpg"
+      ],
+      "packagingVerified": false,
+      "issues": [
+        "All gallery images visually inspected; none shows packaging. Second photo is the source gallery last image."
+      ]
+    },
+    {
+      "localId": "hoco-al-gm24-maus-biznesi-me-6-butona-modalitet-i-dyfishte",
+      "sourceId": 11428,
+      "sourceName": "GM24 Maus biznesi me 6 butona, modalitet i dyfishtë",
+      "sourceUrl": "https://hoco.al/product/gm24-maus-biznesi-me-6-butona-modalitet-i-dyfishte/",
+      "sourceCategory": "maus",
+      "sourcePrice": {
+        "price": "1200",
+        "regular_price": "1200",
+        "sale_price": "1200",
+        "price_range": null,
+        "currency_code": "ALL",
+        "currency_symbol": "L",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": "",
+        "currency_prefix": "",
+        "currency_suffix": " L"
+      },
+      "localPrice": 1400,
+      "sourceIsInStock": true,
+      "sourceGalleryCount": 2,
+      "chosenGalleryIndices": [
+        0,
+        1
+      ],
+      "chosenImageUrls": [
+        "https://hoco.al/wp-content/uploads/2025/03/6931474799432-3.jpg",
+        "https://hoco.al/wp-content/uploads/2025/03/6931474799432-2.jpg"
+      ],
+      "localImages": [
+        "assets/products/hoco-al/gm24-maus-biznesi-me-6-butona-modalitet-i-dyfishte-1.jpg",
+        "assets/products/hoco-al/gm24-maus-biznesi-me-6-butona-modalitet-i-dyfishte-2.jpg"
+      ],
+      "packagingVerified": true,
+      "issues": []
+    }
+  ]
+}

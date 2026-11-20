@@ -15,11 +15,14 @@
       description: "Zgjidh kabllo dhe karikues sipas lidhësit dhe pajisjes tënde.",
       preview: {
         image: "hover cover/karikusa.jpg", alt: "Karikues dhe kabllo për telefon",
-        title: "Karikues për çdo ditë.", description: "Zbulo karikues për iPhone dhe Samsung.", button: "Shiko karikuesit"
+        title: "Karikues për çdo ditë.", description: "Kabllo për telefonin dhe karikues për makinën tënde.", button: "Shiko karikuesit"
       },
       subcategories: [
         { id: "iphone", name: "Për iPhone", title: "Karikues për iPhone" },
-        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" }
+        { id: "samsung", name: "Për Samsung", title: "Karikues për Samsung" },
+        { id: "type-c", name: "USB-C", title: "Kabllo USB-C" },
+        { id: "micro-usb", name: "Micro-USB", title: "Kabllo Micro-USB" },
+        { id: "makine", name: "Për makinë", title: "Karikues makine" }
       ]
     },
     {
@@ -59,12 +62,35 @@
     },
     {
       id: "aksesore", name: "Aksesorë të tjerë telefoni", icon: "headphones", allLabel: "Të gjithë aksesorët",
-      description: "Zbulo çanta mbrojtëse nga uji dhe aksesorë të tjerë telefoni.",
-      subcategories: [],
+      description: "Adaptorë, mbajtëse celulari dhe aksesorë të tjerë për telefonin.",
+      subcategories: [
+        { id: "adaptors", name: "Adaptorë", title: "Adaptorë dhe lidhës" },
+        { id: "mbajtese", name: "Mbajtëse celulari", title: "Mbajtëse celulari" }
+      ],
       preview: {
         image: "hover cover/akesortetjertelefoni.jpg", alt: "Aksesorë dhe pajisje për telefon",
         title: "Detaje që të duhen.", description: "Eksploro aksesorët për telefonin tënd.", button: "Shiko aksesorët"
       }
+    },
+    {
+      id: "audio", name: "Audio", icon: "headphones", allLabel: "Të gjitha pajisjet audio",
+      description: "Kufje dhe bokse Bluetooth për muzikë, telefonata dhe argëtim.",
+      subcategories: [
+        { id: "kufje", name: "Kufje", title: "Kufje" },
+        { id: "bokse", name: "Bokse Bluetooth", title: "Bokse Bluetooth" }
+      ],
+      preview: { title: "Muzika jote. Kudo me ty.", description: "Kufje dhe bokse Bluetooth për tingullin që të shoqëron çdo ditë.", button: "Zbulo pajisjet audio" }
+    },
+    {
+      id: "pajisje", name: "Pajisje", icon: "devices", allLabel: "Të gjitha pajisjet",
+      description: "Ora inteligjente, mause dhe pajisje praktike për përditshmërinë.",
+      subcategories: [
+        { id: "maus", name: "Mause", title: "Mause" },
+        { id: "ora", name: "Ora inteligjente", title: "Ora inteligjente" },
+        { id: "rrjeti", name: "Pajisje rrjeti", title: "Pajisje rrjeti" },
+        { id: "makine", name: "Për makinë", title: "Pajisje për makinë" }
+      ],
+      preview: { title: "Teknologji për çdo ditë.", description: "Zbulo orët inteligjente, mauset dhe pajisjet praktike për ty.", button: "Shiko pajisjet" }
     }
   ];
   const categoryById = id => categories.find(category => category.id === id);
@@ -84,6 +110,7 @@
   const normalize = value => String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
   const $ = selector => document.querySelector(selector);
   const isHome = document.body.dataset.page === "home";
+  const isProductPage = document.body.dataset.page === "product";
   const list = $("#lista-produkteve");
   const search = $("#search");
   const cartDialog = $("#cart-dialog");
@@ -101,6 +128,7 @@
     glasses: '<circle cx="6" cy="14" r="4"/><circle cx="18" cy="14" r="4"/><path d="M10 14h4M2 13l2-7h3m15 7-2-7h-3"/>',
     toy: '<path d="m4 11 2-5h12l2 5M3 11h18v7H3zM7 18v2m10-2v2M7 14h1m8 0h1"/>',
     headphones: '<path d="M4 14v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="12" width="4" height="8" rx="2"/><rect x="17" y="12" width="4" height="8" rx="2"/>',
+    devices: '<rect x="2" y="3" width="14" height="11" rx="2"/><path d="M9 14v5m-4 0h8"/><rect x="17" y="9" width="5" height="12" rx="1.5"/>',
     chat: '<path d="M21 11.5a9 9 0 0 1-9 9 10 10 0 0 1-4-.8L3 21l1.3-4.7A9 9 0 1 1 21 11.5Z"/><path d="M8 9h8m-8 4h5"/>',
     plus: '<path d="M12 5v14M5 12h14"/>'
   };
@@ -140,6 +168,8 @@
     return `<a class="filter-chip${active ? " is-active" : ""}" href="${escapeHTML(catalogURL(category, subcategory))}"${active ? ' aria-current="page"' : ""}>${escapeHTML(label)}</a>`;
   }
 
+  const productURL = id => `produkti.html?id=${encodeURIComponent(id)}`;
+
   function renderCategoryNavigation() {
     const nav = $(".category-nav");
     if (!nav) return;
@@ -154,6 +184,7 @@
   }
 
   function renderCatalog() {
+    if (!list) return;
     const words = normalize(filters.query).split(/\s+/).filter(Boolean);
     const selectedCategory = categoryById(filters.category);
     const selectedSubcategory = selectedCategory?.subcategories.find(subcategory => subcategory.id === filters.subcategory);
@@ -193,7 +224,7 @@
     }
     list.innerHTML = results.map(product => `<article class="product-card" data-product-id="${escapeHTML(product.id)}">
       <div class="product-image"><img src="${escapeHTML(product.foto)}" alt="${escapeHTML(productImageAlt(product))}" width="600" height="600" loading="lazy">${product.fotoProvizore ? '<span class="product-tag">FOTO PROVIZORE</span>' : product.demo ? '<span class="product-tag">DEMO</span>' : ""}</div>
-      <div class="product-body"><span class="product-category">${escapeHTML(categoryName(product.kategoria))}</span><h3>${escapeHTML(product.emri)}</h3><p class="product-description${product.specifikat?.length ? " has-specifications" : ""}">${escapeHTML(product.pershkrimi || "")}</p>${product.specifikat?.length ? `<ul class="product-specifications">${product.specifikat.map(specification => `<li>${escapeHTML(specification)}</li>`).join("")}</ul>` : ""}${product.stoku === null ? '<p class="product-stock">Stoku: pa konfirmuar</p>' : ""}<div class="product-bottom"><strong class="product-price">${money(product.cmimi)}</strong><button class="add-to-cart" type="button" data-add="${escapeHTML(product.id)}" aria-label="Shto në shportë: ${escapeHTML(product.emri)}"><span>Shto në shportë</span>${icon("plus")}</button></div></div>
+      <div class="product-body"><span class="product-category">${escapeHTML(categoryName(product.kategoria))}</span><h3><a class="product-link" href="${escapeHTML(productURL(product.id))}">${escapeHTML(product.emri)}</a></h3><p class="product-description">${escapeHTML(product.pershkrimi || "")}</p><div class="product-bottom"><strong class="product-price">${money(product.cmimi)}</strong><button class="add-to-cart" type="button" data-add="${escapeHTML(product.id)}" aria-label="Shto në shportë: ${escapeHTML(product.emri)}"><span>Shto në shportë</span>${icon("plus")}</button></div></div>
     </article>`).join("");
   }
 
@@ -206,14 +237,91 @@
     try { window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`); } catch { /* Kërkimi vazhdon edhe pa History API. */ }
     renderCatalog();
   }
-  search.addEventListener("input", updateSearch);
+  if (!isProductPage) search.addEventListener("input", updateSearch);
   $(".kerkimi").addEventListener("submit", event => {
     event.preventDefault();
     filters.query = search.value.trim().slice(0, 200);
     window.location.href = catalogURL();
   });
   $("#clear-search")?.addEventListener("click", () => { search.value = ""; updateSearch(); search.focus(); });
-  window.addEventListener("popstate", () => { filters = readFilters(); search.value = filters.query; renderCatalog(); });
+  window.addEventListener("popstate", () => {
+    filters = readFilters();
+    search.value = filters.query;
+    if (isProductPage) renderProduct();
+    else renderCatalog();
+  });
+
+  function renderProduct() {
+    const detail = $("#product-detail");
+    if (!detail) return;
+    const id = new URLSearchParams(window.location.search).get("id");
+    const product = productById.get(id);
+    const breadcrumb = $("#breadcrumb-current");
+    const categoryLink = $("#product-category-link");
+    $("#product-category-separator").hidden = !product;
+    if (!product) {
+      document.title = "Produkti nuk u gjet | ON POINT STORE";
+      breadcrumb.textContent = "Produkti nuk u gjet";
+      categoryLink.hidden = true;
+      detail.innerHTML = '<section class="empty-state"><h1>Produkti nuk u gjet.</h1><p>Shiko katalogun për produktet e disponueshme.</p><a class="button button-red" href="produktet.html">Shiko katalogun</a></section>';
+      return;
+    }
+    document.title = `${product.emri} | ON POINT STORE`;
+    document.querySelector('meta[name="description"]').content = product.pershkrimi || product.emri;
+    breadcrumb.textContent = product.emri;
+    categoryLink.textContent = categoryName(product.kategoria);
+    categoryLink.href = catalogURL(product.kategoria, "", "");
+    categoryLink.hidden = false;
+    const photos = [...new Set((product.fotot?.length ? product.fotot : [product.foto]).filter(Boolean))];
+    const photoLabel = index => index === 0 ? "Produkti" : product.fotoPaketimi ? "Paketimi" : `Foto ${index + 1}`;
+    const specifications = Array.isArray(product.specifikat) ? product.specifikat : [];
+    detail.innerHTML = `
+      <div class="product-detail-layout">
+        <section class="product-gallery" aria-label="Fotot e produktit">
+          <div class="gallery-stage">
+            <img id="product-main-image" src="${escapeHTML(photos[0] || product.foto)}" alt="${escapeHTML(product.emri)} — ${photoLabel(0)}" width="900" height="900" fetchpriority="high">
+            ${photos.length > 1 ? '<button class="gallery-arrow gallery-prev" type="button" data-gallery-step="-1" aria-label="Fotoja e mëparshme">‹</button><button class="gallery-arrow gallery-next" type="button" data-gallery-step="1" aria-label="Fotoja pasuese">›</button>' : ""}
+          </div>
+          ${photos.length > 1 ? `<div class="gallery-thumbnails" aria-label="Zgjidh foton">${photos.map((photo, index) => `<button type="button" class="gallery-thumbnail${index === 0 ? " is-active" : ""}" data-photo-index="${index}" aria-pressed="${index === 0}" aria-label="Shfaq: ${photoLabel(index)}"><img src="${escapeHTML(photo)}" alt="" width="80" height="80"><span>${photoLabel(index)}</span></button>`).join("")}</div>` : ""}
+          <p id="gallery-caption" class="gallery-caption" aria-live="polite">${photoLabel(0)}${photos.length > 1 ? ` · 1 / ${photos.length}` : ""}</p>
+        </section>
+        <section class="product-detail-info" aria-labelledby="product-title">
+          <a class="eyebrow detail-category" href="${escapeHTML(catalogURL(product.kategoria, product.nenkategoria || "", ""))}">${escapeHTML(categoryName(product.kategoria))}</a>
+          <h1 id="product-title">${escapeHTML(product.emri)}</h1>
+          ${product.modeli ? `<p class="detail-model">Modeli: ${escapeHTML(product.modeli)}</p>` : ""}
+          <p class="detail-price">${money(product.cmimi)}</p>
+          <p class="detail-description">${escapeHTML(product.pershkrimi || "")}</p>
+          <div class="detail-purchase">
+            <label class="detail-quantity-label" for="product-quantity">Sasia</label>
+            <div class="detail-purchase-controls"><div class="quantity-control detail-quantity"><button type="button" data-detail-quantity="-1" aria-label="Ul sasinë">−</button><input id="product-quantity" type="number" min="1" max="${MAX_QUANTITY}" step="1" value="1" inputmode="numeric"><button type="button" data-detail-quantity="1" aria-label="Rrit sasinë">+</button></div><button class="button button-red detail-add" type="button" data-add="${escapeHTML(product.id)}" data-use-product-quantity>${icon("bag")}Shto në shportë</button></div>
+            <p class="detail-shipping">Transporti: Durrës 100 lekë · Pjesa tjetër e Shqipërisë 300 lekë.</p>
+          </div>
+          ${specifications.length ? `<section class="detail-specifications" aria-labelledby="product-specifications-title"><h2 id="product-specifications-title">Detajet e produktit</h2><ul>${specifications.map(specification => `<li>${escapeHTML(specification)}</li>`).join("")}</ul></section>` : ""}
+          <a class="detail-back-link" href="${escapeHTML(catalogURL(product.kategoria, "", ""))}">← Shiko produkte të tjera</a>
+        </section>
+      </div>`;
+    let activePhoto = 0;
+    function showPhoto(index) {
+      activePhoto = (index + photos.length) % photos.length;
+      const mainImage = $("#product-main-image");
+      mainImage.src = photos[activePhoto];
+      mainImage.alt = `${product.emri} — ${photoLabel(activePhoto)}`;
+      $("#gallery-caption").textContent = `${photoLabel(activePhoto)} · ${activePhoto + 1} / ${photos.length}`;
+      detail.querySelectorAll("[data-photo-index]").forEach(button => {
+        const active = Number(button.dataset.photoIndex) === activePhoto;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+    }
+    detail.querySelectorAll("[data-photo-index]").forEach(button => button.addEventListener("click", () => showPhoto(Number(button.dataset.photoIndex))));
+    detail.querySelectorAll("[data-gallery-step]").forEach(button => button.addEventListener("click", () => showPhoto(activePhoto + Number(button.dataset.galleryStep))));
+    detail.querySelectorAll("[data-detail-quantity]").forEach(button => button.addEventListener("click", () => {
+      const input = $("#product-quantity");
+      input.value = Math.max(1, Math.min(MAX_QUANTITY, (Number(input.value) || 1) + Number(button.dataset.detailQuantity)));
+      input.setCustomValidity("");
+    }));
+    $("#product-quantity").addEventListener("input", event => event.target.setCustomValidity(""));
+  }
 
   const banner = $(".banner");
   const bannerDefaults = banner ? {
@@ -385,15 +493,22 @@
     const bounds = cartDialog.getBoundingClientRect();
     if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) closeCart();
   });
-  list.addEventListener("click", event => {
+  document.addEventListener("click", event => {
     const button = event.target.closest("[data-add]");
     if (!button) return;
     const product = productById.get(button.dataset.add);
     if (!product) return;
+    const quantityInput = button.hasAttribute("data-use-product-quantity") ? $("#product-quantity") : null;
+    const quantity = quantityInput ? Number(quantityInput.value) : 1;
+    if (!Number.isInteger(quantity) || quantity < 1 || quantity > MAX_QUANTITY) {
+      quantityInput.setCustomValidity(`Vendos një numër të plotë nga 1 deri në ${MAX_QUANTITY}.`);
+      quantityInput.reportValidity();
+      return;
+    }
     const item = cart.find(entry => entry.id === product.id);
-    if (item?.quantity >= MAX_QUANTITY) { announce(`Sasia maksimale është ${MAX_QUANTITY} copë për produkt.`); return; }
-    if (item) item.quantity += 1;
-    else cart.push({ id: product.id, quantity: 1 });
+    if ((item?.quantity || 0) + quantity > MAX_QUANTITY) { announce(`Sasia maksimale është ${MAX_QUANTITY} copë për produkt.`); return; }
+    if (item) item.quantity += quantity;
+    else cart.push({ id: product.id, quantity });
     saveCart();
     renderCart();
     if (storageAvailable) announce(`${product.emri} u shtua në shportë.`);
@@ -434,6 +549,7 @@
     renderCart();
   });
 
-  renderCatalog();
+  if (isProductPage) renderProduct();
+  else renderCatalog();
   renderCart();
 })();
